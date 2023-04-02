@@ -269,11 +269,11 @@ export default function CatalogoPersonaNatural() {
     <style jsx>{`
         @media (max-width: 640px) {
             .relative {
-                height: 48vw;
-            }
-        }
-    `}</style>
-</div>
+                height: 72vw;
+               }
+               }
+              `}</style>
+               </div>
                     <div className="relative p-2">
                       <h3 className="text-xl font-bold text-gray-900">{product.name}</h3>
                       <span className="flex flex-row items-center space-x-2 mt-1">
