@@ -1,124 +1,130 @@
-import { Fragment } from 'react'
-import Link from 'next/link'
-import { Popover, Transition } from '@headlessui/react'
-import clsx from 'clsx'
+import { Fragment, useState } from 'react';
+import { Dialog, Popover, Transition } from '@headlessui/react';
+import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { AiOutlineCar } from 'react-icons/ai';
+import Link from 'next/link';
 
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { NavLink } from '@/components/NavLink'
+const navigation = [
+  { name: 'Inicio', href: '#Home' },
+  { name: 'Renting', href: '#Renting' },
+  { name: 'Catálogo', href: '#tipoPersona' },
+  { name: 'Promociones', href: '#Promociones' },
+  // { name: 'Sobre Nosotros', href: '#aboutUs' },
+];
 
-function MobileNavLink({ href, children }) {
+const products = [
+  { name: 'Catálogo Empresa', href: '/catalogoEmpresa', icon: AiOutlineCar },
+  { name: 'Catálogo Persona Natural', href: '/catalogoNatural', icon: AiOutlineCar },
+];
+
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <Popover.Button as={Link} href={href} className="block w-full p-2">
-      {children}
-    </Popover.Button>
-  )
-}
-
-function MobileNavIcon({ open }) {
-  return (
-    <svg
-      aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
-      fill="none"
-      strokeWidth={2}
-      strokeLinecap="round"
-    >
-      <path
-        d="M0 1H14M0 7H14M0 13H14"
-        className={clsx(
-          'origin-center transition',
-          open && 'scale-90 opacity-0'
-        )}
-      />
-      <path
-        d="M2 2L12 12M12 2L2 12"
-        className={clsx(
-          'origin-center transition',
-          !open && 'scale-90 opacity-0'
-        )}
-      />
-    </svg>
-  )
-}
-
-function MobileNavigation() {
-  return (
-    <Popover>
-      <Popover.Button
-        className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
-        aria-label="Toggle Navigation"
-      >
-        {({ open }) => <MobileNavIcon open={open} />}
-      </Popover.Button>
-      <Transition.Root>
-        <Transition.Child
-          as={Fragment}
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0"
-          enterTo="opacity-100"
-          leave="duration-150 ease-in"
-          leaveFrom="opacity-100"
-          leaveTo="opacity-0"
-        >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
-        </Transition.Child>
-        <Transition.Child
-          as={Fragment}
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <Popover.Panel
-            as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
-          >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
-          </Popover.Panel>
-        </Transition.Child>
-      </Transition.Root>
-    </Popover>
-  )
-}
-
-export function Header() {
-  return (
-    <header className="py-10">
-      <Container>
-        <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
-            </Link>
-            <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
-            </div>
+    <>
+      <header className="bg-white">
+        <nav className="mx-12 flex items-center justify-between" aria-label="Global">
+          <div className="flex lg:flex-1">
+            <img className="h-[100px] w-[302px]" src="/fondoss.png" alt="" />
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div>
-            <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button>
-            <div className="-mr-1 md:hidden">
-              <MobileNavigation />
-            </div>
+          <div className="flex lg:hidden">
+            <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400" onClick={() => setMobileMenuOpen(true)}>
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <Popover.Group className="hidden lg:flex lg:gap-x-12">
+            <Link href="#Home" className="text-lg font-semibold leading-6 text-gold-goldButton">
+              Inicio
+            </Link>
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gold-goldButton">
+                Catálogo
+                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {products.map((item) => (
+                      <div key={item.name} className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                        <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-gold-goldText" aria-hidden="true" />
+                        </div>
+                        <div className="flex-auto">
+                          <a href={item.href} className="block font-semibold text-gray-900">
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
+            <a href="#Renting" className="text-lg font-semibold leading-6 text-gold-goldButton">
+              Renting
+            </a>
+            <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
+              Promociones
+            </a>
+          </Popover.Group>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a
+              href="https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+estoy+interesado+en+rentar+un+vehículo,+pordrían+brindarme+más+información,+gracias."
+              target="_blank"
+              className="text-lg font-semibold leading-6 text-gray-900"
+              rel="noreferrer"
+            >
+              <span className="p-3 rounded-lg bg-gold-goldButton text-white hover:bg-gold-goldBg">Contáctenos</span>
+            </a>
           </div>
         </nav>
-      </Container>
-    </header>
-  )
+        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <div className="fixed inset-0 z-10" />
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+            <div className="flex items-center justify-between">
+              <a href="#Home" className="-m-1.5 p-1.5">
+                <span className="sr-only">Your Company</span>
+                <img className="h-8" src="/fondoss.png" alt="" />
+              </a>
+              <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(false)}>
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              </button>
+            </div>
+            <div className="mt-6 flow-root">
+              <div className="-my-6 divide-y divide-gray-500/25">
+                <div className="space-y-2 py-6">
+                  {navigation.map((item) => (
+                    <a key={item.name} href={item.href} className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-800">
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+                <div className="">
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+estoy+interesado+en+rentar+un+vehículo,+pordrían+brindarme+más+información,+gracias."
+                    target="_blank"
+                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900"
+                    rel="noreferrer"
+                  >
+                    Contáctenos
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Dialog.Panel>
+        </Dialog>
+      </header>
+    </>
+  );
 }
