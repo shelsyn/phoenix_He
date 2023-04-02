@@ -4,7 +4,7 @@ export default function TipoPersona() {
     return (
       <section id="tipoPersona">
         <div className="relative overflow-hidden bg-white">
-          <div className="pt-16 pb-80 sm:pt-24 sm:pb-[608px] lg:pt-40 lg:pb-48">
+          <div className="pt-16 pb-[39rem] sm:pt-24 sm:pb-[608px] lg:pt-40 lg:pb-48">
             <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
               <div className="sm:max-w-lg">
                 <h1 className="font text-4xl font-bold tracking-tight text- sm:text-6xl">Nuestro Catálogo</h1>
