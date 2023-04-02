@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TipoPersona() {
     return (
       <section id="tipoPersona">
@@ -47,12 +49,12 @@ export default function TipoPersona() {
                     </div>
                   </div>
                   <div className="flex justify-start">
-                    <a href="/catalogoNatural" className="rounded-lg border border-transparent bg-gold-goldTitle py-3 px-8 text-center font-normal text-white hover:bg-gold-goldText mr-4">
+                    <Link href="/catalogoNatural" className="rounded-lg border border-transparent bg-gold-goldTitle py-3 px-8 text-center font-normal text-white hover:bg-gold-goldText mr-4">
                       Catálogo Natutal
-                    </a>
-                    <a href="/catalogoEmpresa" className="rounded-lg border border-transparent bg-gold-goldTitle py-3 px-8 text-center font-normal text-white hover:bg-gold-goldText">
+                    </Link>
+                    <Link href="/catalogoEmpresa" className="rounded-lg border border-transparent bg-gold-goldTitle py-3 px-8 text-center font-normal text-white hover:bg-gold-goldText">
                       Catálogo Empresa
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
