@@ -32,6 +32,7 @@ module.exports = {
         goldHover: '#ab8d60',
         goldHeader: '#827458',
         goldButton: '#B8A36D',
+        goldWhite: '#e3e0da',
       },
     },
     fontSize: {
