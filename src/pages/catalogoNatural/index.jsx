@@ -264,9 +264,16 @@ export default function CatalogoPersonaNatural() {
               {products.map((product) => (
                 <div key={product.id}>
                   <div className="relative rounded-xl shadow-lg">
-                    <div className="relative h-72 w-full overflow-hidden rounded-lg">
-                      <img src={product.imageSrc} alt={product.imageAlt} className="h-fit w-fit object-cover object-center" />
-                    </div>
+                  <div className="relative h-72 w-full overflow-hidden rounded-lg">
+    <img src={product.imageSrc} alt={product.imageAlt} className="w-full h-auto object-cover object-center" />
+    <style jsx>{`
+        @media (max-width: 640px) {
+            .relative {
+                height: 48vw;
+            }
+        }
+    `}</style>
+</div>
                     <div className="relative p-2">
                       <h3 className="text-xl font-bold text-gray-900">{product.name}</h3>
                       <span className="flex flex-row items-center space-x-2 mt-1">
