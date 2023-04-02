@@ -265,10 +265,10 @@ export default function CatalogoPersonaNatural() {
                 <div key={product.id}>
                   <div className="relative rounded-xl shadow-lg">
                   <div className="relative h-72 w-full overflow-hidden rounded-lg">
-    <img src={product.imageSrc} alt={product.imageAlt} className="w-full h-auto object-cover object-center" />
-    <style jsx>{`
-        @media (max-width: 640px) {
-            .relative {
+               <img src={product.imageSrc} alt={product.imageAlt} className="w-full h-auto object-cover object-center" />
+             <style jsx>{`
+             @media (max-width: 640px) {
+                .relative {
                 height: 72vw;
                }
                }

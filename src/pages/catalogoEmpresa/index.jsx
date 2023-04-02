@@ -2,168 +2,170 @@ import HeaderEmpresas from "@/components/CatalogoEmpresa/HeaderEmpresas";
 import RentingEmpresas from "@/components/CatalogoEmpresa/RentingEmpresas";
 import Footer from "@/components/Footer";
 import Productos from "@/components/Productos";
+import Head from "next/head";
 
 
 const products = [
-  {
-    id: 1,
-    name: 'Toyota HILUX D.C. 4X4 DIESEL 2.4 AUTOMATICA -Pickup',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Toyota+HILUX,+gracias.',
-    imageSrc: './estee.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Ford RANGER XL 3.2L DIESEL 4X4 -Pickup',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Ford+RANGER+XL+3.2L+DIESEL+4X4,+gracias.',
-    imageSrc: './rangew.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Renault NUEVA MASTER MAXI CARGA -Vans',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+NUEVA+MASTER+MAXI+CARGA+Vans,+gracias.',
-    imageSrc: './Master.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´500.000',
-  },
-  {
-    id: 1,
-    name: 'Mitsubishi L200 GLS AT SE -Pickup',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mitsubishi+L200,+gracias.',
-    imageSrc: './mit.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'ZNA RICH 6 EV DC -Pickup',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+ZNA+RICH+6+EV+DC+Pickup,+gracias.',
-    imageSrc: './Rich-6.png',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'RENAULT ALASKAN CARGO -Pickup',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+RENAULT+ALASKAN+CARGO,+gracias.',
-    imageSrc: './ALASKAN.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Chevrolet N400 -Vans',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+N400+Vans,+gracias.',
-    imageSrc: './Chevrolet-N400.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'DFSK CARGO 1.2 K05S LUXURY -Vans',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+DFSK+CARGO+K05S+LUXURY+Vans,+gracias.',
-    imageSrc: './DFSKK.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
+////////////////////////camioneta/////////
+{
+  id: 1,
+  name: ' L200 Glx 2.5 Diesel 4X4 Dc Mt',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+NEW+ALTO+800,+gracias.',
+  imageSrc: './mitsu.jpeg',
+  precio: '$4´902.900 mensual',
+  marca: 'Mitsubishi',
+  tipo: 'Camioneta',
+  ficha:''
+},
+{
+  id: 1,
+  name: ' Colorado (S10) Ls Mt 4X4 2.8 Dsl Cd',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Subaru+XV,+gracias.',
+  imageSrc: './colorado.png',
+  precio: '$4´934.900 mensual',
+  marca: 'Chevrolet ',
+  tipo: 'Camioneta',
+  ficha:''
+},
+{
+  id: 1,
+  name: ' Ranger Xls Diesel Mt D/C',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+LOGAN,+gracias.',
+  imageSrc: './ford.png',
+  precio: '$5´329.900 mensual',
+  marca: 'Ford ',
+  tipo: 'Camioneta',
+  ficha:''
+},
+{
+  id: 1,
+  name: 'Alaskan Cargo',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Peugeot+2008,+gracias.',
+  imageSrc: './renault.jpg',
+  precio: '$5´337.900 mensual',
+  marca: 'Renault',
+  tipo: 'Camioneta',
+  ficha:''
+},
+{
+  id: 1,
+  name: ' Hilux D.C. Diesel 2.4 4X4 Mecanica',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+XL7,+gracias.',
+  imageSrc: './toyota1.jpg',
+  precio: '$5´649.900 mensual',
+  marca: 'Toyota',
+  tipo: 'Camioneta',
+  ficha:''
+},
+{
+  id: 1,
+  name: ' Rich 6 Ev Dc',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+XL7,+gracias.',
+  imageSrc: './dongfe.webp',
+  precio: '$5´733.900 mensual',
+  marca: 'HZna',
+  tipo: 'Camioneta',
+  ficha:''
+},
+ ///////////////////////////VANS/////////////////////////////////
  {
-    id: 1,
-    name: 'Nissan PANEL NV-350 NEW URVAN 2.5 TURBO DIESEL T.ALTO A -Vans A -Vans',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+nissan+panel+NV-350,+gracias.',
-    imageSrc: './nv350.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  
+  id: 1,
+  name: ' New Kangoo Evolución Producto',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+NEW+ALTO+800,+gracias.',
+  imageSrc: './kangoo.jpg',
+  precio: '$2´374.900 mensual',
+  marca: 'Renault',
+  tipo: 'Vans',
+  ficha:''
+},
+//////////////////////////////////camion liviano//////
+{
+  id: 1,
+  name: 'Chevrolet Nhr Reward Euro Iv',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Subaru+XV,+gracias.',
+  imageSrc: './camion1.png',
+  precio: '$6´233.900 mensual',
+  marca: 'Chevrolet ',
+  tipo: 'Camion liviano',
+  ficha:''
+},
+{
+  id: 1,
+  name: ' Npr Reward Euro Iv',
+  year: '2023',
+  href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+LOGAN,+gracias.',
+  imageSrc: './camion2.png',
+  precio: '$6´496.900 mensual',
+  marca: 'Chevrolet',
+  tipo: 'Camion liviano',
+  ficha:''
+},
 
-  {
-    id: 1,
-    name: 'Chevrolet NHR Reward Euro IV -Liviano',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+NHR+Reward+Euro+IV+Liviano+Liviano+gracias.',
-    imageSrc: './NHR.png',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Foton FKR Euro IV -Camión Liviano',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Foton+FKR+Euro+IV+Camión+Liviano+gracias.',
-    imageSrc: './foton-fkr.png',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Mitsubishi Canter Fuso 5,7M -Camión Liviano',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mitsubishi+Canter+Fuso+5,7M+Camión+Liviano+gracias.',
-    imageSrc: './carter-fuso.png',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Foton FHR 3.0 CUMMINS 2023 - BJ1045  C/A - Camión',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+foton+FHR+3.0+cummins,+gracias.',
-    imageSrc: './cummins.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
-  {
-    id: 1,
-    name: 'Ram V700 -Vans',
-    color: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Ram+V700+Vans,+gracias.',
-    imageSrc: './RAM-V700.jpg',
-    imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
-    price: '$1´400.000',
-  },
 ];
 export default function CatalogoEmpresa() {
   return (
     <>
+          <Head>
+        <title>Phoenix Car | Catalogo Empresa</title>
+        <meta
+          name="description"
+        />
+      </Head>
       <HeaderEmpresas />
       <RentingEmpresas />
       <section id="catalogoEmpresa">
-        <div className="bg-white">
-          <div className="mx-auto max-w-2xl py-16 px-4 sm:py-16 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h2 className="text-4xl text-gold-goldTitle font-bold phoenix_car@outlook.com">Nuestro Catálogo</h2>
+      <div className="bg-white">
+          <div className="mx-auto py-16 px-4 sm:py-16 sm:px-6 lg:max-w-7xl lg:px-8">
+            <h2 className="text-4xl text-gold-goldTitle font-bold ">Nuestro Catálogo</h2>
             <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
               {products.map((product) => (
                 <div key={product.id}>
-                  <div className="relative">
-                    <div className="relative h-72 w-full overflow-hidden rounded-lg">
-                      <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center" />
-                    </div>
-                    <div className="relative mt-4">
-                      <h3 className="text-sm font-medium text-gray-900">{product.name}</h3>
-                      <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                  <div className="relative rounded-xl shadow-lg">
+                  <div className="relative h-72 w-full overflow-hidden rounded-lg">
+               <img src={product.imageSrc} alt={product.imageAlt} className="w-full h-auto object-cover object-center" />
+             <style jsx>{`
+             @media (max-width: 640px) {
+                .relative {
+                height: 72vw;
+               }
+               }
+              `}</style>
+               </div>
+                    <div className="relative p-2">
+                      <h3 className="text-xl font-bold text-gray-900">{product.name}</h3>
+                      <span className="flex flex-row items-center space-x-2 mt-1">
+                        <p className="text-sm text-gray-900 bg-gold-goldWhite rounded-xl py-0.5 px-1">{product.marca}</p>
+                        <p className="text-sm text-gray-900 bg-gold-goldWhite rounded-xl py-0.5 px-1">{product.year}</p>
+                      </span>
+                      <p className="mt-1 text-sm text-gray-500">{product.tipo}</p>
+                      <p className="mt-1 text-lg font-semibold text-slate-700">{product.precio}</p>
                     </div>
                     <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
                       <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50" />
-                      {/* <p className="relative text-lg font-semibold text-white">{product.price}</p> */}
+                      {/* <p className="relative text-lg font-semibold text-white">{product.precio}</p> */}
                     </div>
                   </div>
-                  <div className="mt-6">
+                  <div className="mt-6 grid grid-cols-2 gap-2">
+                  <a
+                      href={product.ficha}
+                      target="_blank"
+                      className="col-span-1 relative flex items-center justify-center rounded-md border border-transparent bg-gold-goldButton py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gold-goldHover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-goldSubtitle"
+                      rel="noreferrer"
+                    >
+                      Ficha técnica<span className="sr-only">, {product.name}</span>
+                    </a>
                     <a
                       href={product.href}
                       target="_blank"
-                      className="relative flex items-center justify-center rounded-md border border-transparent bg-gold-goldButton py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gold-goldHover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-goldSubtitle"
+                      className="col-span-1 relative flex items-center justify-center rounded-md border border-transparent bg-gold-goldButton py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gold-goldHover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-goldSubtitle"
                       rel="noreferrer"
                     >
                       Más información<span className="sr-only">, {product.name}</span>
