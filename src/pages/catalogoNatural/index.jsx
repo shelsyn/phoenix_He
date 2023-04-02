@@ -2,281 +2,258 @@ import HeaderNatural from "@/components/CatalogoNatural/HeaderNatural";
 import RentingNatural from "@/components/CatalogoNatural/RentingNatural";
 import Footer from "@/components/Footer";
 import Productos from "@/components/Productos";
+import Head from "next/head";
 
 const products = [
   {
     id: 1,
-    name: 'Chevrolet TRACKER TURBO LTZ AT',
+    name: 'Vitara Mc 2Wd At Gl+',
     year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+TRACKER+TURBO+LTZ+AT+-Camioneta,+gracias.',
-    imageSrc: './CHEVROLET-TRACKER-TURBO.jpg',
-    imageAlt: 'Chevrolet TRACKER TURBO LTZ AT -Camioneta - SUV.',
-    precio: '$1´400.000',
-    marca: 'Chevrolet',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+Vitara+Mc,+gracias.',
+    imageSrc: './suzuki-Vitara.jpg',
+    precio: '$3´110.900 mensual',
+    marca: 'Suzuki',
     tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Chevrolet ONIX HB PREMIER TURBO',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+ONIX+HB+gracias.',
-    imageSrc: './onix-HB.jpg',
-    imageAlt: 'Chevrolet ONIX HB PREMIER TURBO AT -Automovil',
-    precio: '$1´400.000',
-    marca: 'Chevrolet',
-    tipo: 'Automovil',
-  },
-  {
-    id: 1,
-    name: 'Chevrolet TAHOE 5.3L 4X4 LT',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+TAHOE++4X4+gracias.',
-    imageSrc: './chevrolet_tahoe.jpg',
-    imageAlt: 'Chevrolet TAHOE 5.3L 4X4 LT -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Chevrolet',
-    tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Ford ESCAPE SE 4X2 ECOBOOST',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Ford+ESCAPE+SE+4X2+gracias.',
-    imageSrc: './FORD-ESCAPE-SE-SPORT-4X2.jpg',
-    imageAlt: 'Ford ESCAPE SE 4X2 ECOBOOST -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Ford',
-    tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Hyundai HB20 Getz Advance AT',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Hyundai+HB20,gracias.',
-    imageSrc: './HYUNDAI-HB20.jpeg',
-    imageAlt: 'Hyundai HB20 Getz Advance AT -Automovil',
-    precio: '$1´400.000',
-    marca: 'Hyundai',
-    tipo: 'Automovil',
-  },
-  {
-    id: 1,
-    name: 'Jeep COMPASS LONGITUDE PLUS',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Jeep+COMPASS+LONGITUDE,+gracias.',
-    imageSrc: './Jeep COMPASS.jpeg',
-    imageAlt: 'Jeep COMPASS LONGITUDE PLUS -Camioneta – SUV',
-    precio: '$1´400.000',
-    marca: 'Jeep',
-    tipo: 'Camioneta – SUV',
-  },
-  {
-    id: 1,
-    name: 'Kia PICANTO VIBRANT MT',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Kia+PICANTO+,gracias.',
-    imageSrc: './PICANTO.jpg',
-    imageAlt: 'Kia PICANTO VIBRANT MT -Automovil',
-    precio: '$1´400.000',
-    marca: 'Kia',
-    tipo: 'Automovil',
+    ficha: 'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8d0a4fa4-b9c5-4db4-9c69-37acc2cdfa1e'
   },
 
   {
     id: 1,
-    name: 'Kia RIO SEDÁN EMOTION MT',
+    name: 'Tracker Turbo Ls At',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+Tracker+Turbo+Ls,+gracias.',
+    imageSrc: './trackerTurbo.webp',
+    precio: '$3´151.900 mensual',
+    marca: 'Chevrolet',
+    tipo: 'Camioneta - SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'Nueva Duster Zen 1.6 4X2 Mt',
+    year: '2024',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+Duster+Zen+1.6+2024,+gracias.',
+    imageSrc: './duster.jpg',
+    precio: '$3´111.900 mensual',
+    marca: 'Renault',
+    tipo: 'Camioneta - SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Pulse Impetus At',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+ZOE,+gracias.',
+    imageSrc: './fiat.png',
+    precio: '$3´659.900 mensual',
+    marca: 'Fiat',
+    tipo: 'Camioneta – SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'Cx5 Touring 2.0 At 4X2',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+Cx5+grand+touring+2.0,+gracias.',
+    imageSrc: './mazda2-0.webp',
+    precio: '$4´204.900 mensual',
+    marca: 'Mazda',
+    tipo: 'Camioneta – SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'T-Cross Trendline Sense 170 Tsi Mt',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+T-Cross+Trendline+Sense+SE+170,+gracias.',
+    imageSrc: './t-cross.jpg',
+    precio: '$3´280.900 mensual',
+    marca: 'Volkswagen',
+    tipo: 'Camioneta - SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'Nueva Koleos Intens 4X4 Ph2',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Koleos+Intens+4x4+,gracias.',
+    imageSrc: './koleos.webp',
+    precio: '$4´827.900 mensual',
+    marca: 'Renault',
+    tipo: 'Camioneta – SUV',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'Cx5 Grand Touring 2.5 At 4X2',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+Cx5+grand+touring+2.5,+gracias.',
+    imageSrc: './mazda2-5.webp',
+    precio: '$4´709.900 mensual',
+    marca: 'Mazda',
+    tipo: 'Camioneta - SUV',
+    ficha:''
+  },
+
+///////////////AUTOMOVIL////////
+  {
+    id: 1,
+    name: 'Logan Life Ph2',
     year: '2023',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Kia+RIO+,gracias.',
-    imageSrc: './kia-rioo.jpeg',
-    imageAlt: 'Kia RIO SEDÁN EMOTION MT -Automovil',
-    precio: '$1´400.000',
-    marca: 'Kia',
+    imageSrc: './logan.jpg',
+    imageAlt: 'Renault ',
+    precio: '$2´010.900 mensual',
+    marca: 'Renault ',
     tipo: 'Automovil',
+    ficha:''
   },
 
   {
     id: 1,
-    name: 'Mazda CX5 TOURING 2.0 AT 4X2',
-    year: '2023',
+    name: ' Kwid Zen',
+    year: '2024',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+CX5+,gracias.',
-    imageSrc: './mazda-cx5.jpg',
-    imageAlt: 'Mazda CX5 TOURING 2.0 AT 4X2 CUERO -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Mazda',
-    tipo: 'Camioneta',
-  },
-  {
-    id: 1,
-    name: 'Mazda MX30 GRAND TOURING',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+MX30+,gracias.',
-    imageSrc: './mazda-MX30.jpg',
-    imageAlt: 'Mazda MX30 GRAND TOURING -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Mazda',
-    tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Mercedes Benz GLB 200 AMG LINE',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+mercedez+GLB,+gracias.',
-    imageSrc: './GLB 200.jpg',
-    imageAlt: 'Mercedes Benz GLB 200 AMG LINE -Campero',
-    precio: '$1´400.000',
-    marca: 'Mercedes Benz',
-    tipo: 'Campero',
-  },
-  {
-    id: 1,
-    name: 'Mitsubishi Eclipse Cross AT 4x4',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+nissan+panel+NV-350,+gracias.',
-    imageSrc: './mitsubishi-eclipse.jpg',
-    imageAlt: 'Mitsubishi Eclipse Cross AT 4x4 -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Mitsubishi',
-    tipo: 'Camioneta',
-  },
-
-  {
-    id: 1,
-    name: 'Nissan KICKS ADVANCE AUT CVT',
-    year: '2024',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Nissan+KICKS,+gracias.',
-    imageSrc: './nissan_kicks.jpg',
-    imageAlt: 'Nissan KICKS ADVANCE 1.6L 2WD AUT CVT -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Nissan',
-    tipo: 'Camioneta',
-  },
-  {
-    id: 1,
-    name: 'Nissan NEW SENTRA 2.0L SR AUT',
-    year: '2024',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Nissan+NEW+SENTRA,+gracias.',
-    imageSrc: './Nissan NEW.jpg',
-    imageAlt: 'Nissan NEW SENTRA 2.0L SR AUT CVT -Automovil',
-    precio: '$1´400.000',
-    marca: 'Nissan',
-    tipo: 'Automovil',
-  },
-  {
-    id: 1,
-    name: 'Peugeot GT-LINE 1.2 PURETECH',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Peugeot+2008,+gracias.',
-    imageSrc: './Peugeot 2008.jpg',
-    imageAlt: 'Peugeot 2008 GT-LINE 1.2 PURETECH -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Peugeot',
-    tipo: 'Camioneta - SUV',
-  },
-
-  {
-    id: 1,
-    name: 'Renault LOGAN LIFE',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+LOGAN,+gracias.',
-    imageSrc: './Renault LOGAN LIFE.jpg',
-    imageAlt: 'Renault LOGAN LIFE + PH2 -Automovil',
-    precio: '$1´400.000',
+    imageSrc: './kwid.jpg',
+    precio: '$1´982.900 mensual',
     marca: 'Renault',
     tipo: 'Automovil',
+    ficha:''
   },
-
+  {
+    id: 1,
+    name: 'Logan Life Fleet Cvt',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+MX30+,gracias.',
+    imageSrc: './logan2.jpg',
+    imageAlt: 'Renault Logan Life Fleet Cvt',
+    precio: '$2´466.900 mensual',
+    marca: 'Renault ',
+    tipo: 'Automovil',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' New Swift 1.2 Hybrid',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+nissan+panel+NV-350,+gracias.',
+    imageSrc: './susukiSwift.png',
+    precio: '$2´483.900 mensual',
+    marca: 'Suzuki',
+    tipo: 'Automovil',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: 'Onix Nb Lt Turbo At',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+mercedez+GLB,+gracias.',
+    imageSrc: './onix.png',
+    precio: '$2´599.900 mensual',
+    marca: 'Chevrolet',
+    tipo: 'Automovil',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Logan Intens Cvt Ph2',
+    year: '2024',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Nissan+KICKS,+gracias.',
+    imageSrc: './logan3.png',
+    precio: '$2´505.900 mensual',
+    marca: 'Renault',
+    tipo: 'Automovil',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Virtus Trendline 1.6L 110Hp 5Mt',
+    year: '2024',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Nissan+NEW+SENTRA,+gracias.',
+    imageSrc: './wwagen.jpg',
+    precio: '$2´657.900 mensual',
+    marca: 'Volkswagen',
+    tipo: 'Automovil',
+    ficha:''
+  },
   {
     id: 1,
     name: 'Renault TWIZY TECHNIC',
     year: '2023',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+TWIZY,+gracias.',
-    imageSrc: './Renault TWIZY.jpeg',
-    imageAlt: 'Renault TWIZY TECHNIC -Automovil',
-    precio: '$1´400.000',
+    imageSrc: './twzy.jpg',
+    precio: '$1´400.000 mensual',
     marca: 'Renault',
     tipo: 'Automovil',
+    ficha:''
   },
+  ///////////////////////////CAMPEROS/////////////////////////////////
   {
     id: 1,
-    name: 'Subaru XV HYBRID',
-    year: '2022',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Subaru+XV,+gracias.',
-    imageSrc: './Subaru XV.jpeg',
-    imageAlt: 'Subaru XV HYBRID -Campero',
-    precio: '$1´400.000',
-    marca: 'Subaru',
-    tipo: 'Campero',
-  },
-  {
-    id: 1,
-    name: 'Suzuki NEW ALTO 800 STD ABS',
+    name: ' Nivus Comfortline 1.0L 200Tsi 6At',
     year: '2023',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+NEW+ALTO+800,+gracias.',
-    imageSrc: './alto.jpg',
-    imageAlt: 'Suzuki NEW ALTO 800 STD AC ABS -Automovil',
-    precio: '$1´400.000',
-    marca: 'Suzuki',
-    tipo: 'Automovil',
+    imageSrc: './nivus.webp',
+    precio: '$3´193.900 mensual',
+    marca: 'Volkswagen',
+    tipo: 'Campero',
+    ficha:''
   },
   {
     id: 1,
-    name: 'Suzuki XL7 GL MT',
+    name: ' Prado 5 Puertas Diesel 2.8 Tx',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Subaru+XV,+gracias.',
+    imageSrc: './prado.png',
+    precio: '$9´296.900 mensual',
+    marca: 'Toyota ',
+    tipo: 'Campero',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Duster Iconic 1.3T 4X4 Mt',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+LOGAN,+gracias.',
+    imageSrc: './duster3.jpg',
+    precio: '$3´419.900 mensual',
+    marca: 'Renault',
+    tipo: 'Campero',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Nueva Duster Intens 1.3T 4X4 Mt',
+    year: '2023',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Peugeot+2008,+gracias.',
+    imageSrc: './duster2.jpg',
+    precio: '$3´000.000 mensual',
+    marca: 'Renault',
+    tipo: 'Campero',
+    ficha:''
+  },
+  {
+    id: 1,
+    name: ' Crossland Edition',
     year: '2023',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Suzuki+XL7,+gracias.',
-    imageSrc: './Suzuki XL7.jpg',
-    imageAlt: 'Suzuki XL7 GL MT -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Suzuki',
-    tipo: 'Camioneta - SUV',
+    imageSrc: './opel.jpg',
+    precio: '$3´361.900 mensual',
+    marca: 'Opel',
+    tipo: 'Campero',
+    ficha:''
   },
-  {
-    id: 1,
-    name: 'Renault ZOE (Eléctrico)',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+ZOE,+gracias.',
-    imageSrc: './Renault ZOE.jpeg',
-    imageAlt: 'Renault ZOE (Eléctrico) -Automovil',
-    precio: '$1´400.000',
-    marca: 'Renault',
-    tipo: 'Automovil',
-  },
-  {
-    id: 1,
-    name: 'Ford BRONCO SPORT WILDTRACK',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Ford+BRONCO+SPORT,+gracias.',
-    imageSrc: './Ford-Bronco.jpg',
-    imageAlt: 'Ford BRONCO SPORT WILDTRACK 4X4 -Camioneta - SUV.',
-    precio: '$1´400.000',
-    marca: 'Ford',
-    tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Mazda CX50 GRAND TOURING 4X2',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+CX50+GRAND,+gracias.',
-    imageSrc: './mazda_cx_50.jpg',
-    imageAlt: 'Mazda CX50 GRAND TOURING 2.5 AT 4X2 -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Mazda',
-    tipo: 'Camioneta - SUV',
-  },
-  {
-    id: 1,
-    name: 'Mazda CX5 TOURING 2.0 AT 4X2',
-    year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+CX5+TOURING,+gracias.',
-    imageSrc: './mazda-cx5.jpg',
-    imageAlt: 'Mazda CX5 TOURING 2.0 AT 4X2 CUERO -Camioneta - SUV',
-    precio: '$1´400.000',
-    marca: 'Mazda',
-    tipo: 'Camioneta - SUV',
-  },
+ 
 ];
 export default function CatalogoPersonaNatural() {
   return (
     <>
+      <Head>
+        <title>Phoenix Car | Catalogo Natural</title>
+        <meta
+          name="description"
+        />
+      </Head>
       <HeaderNatural />
       <RentingNatural />
       <section id="catalogoEmpresa">
@@ -288,7 +265,7 @@ export default function CatalogoPersonaNatural() {
                 <div key={product.id}>
                   <div className="relative rounded-xl shadow-lg">
                     <div className="relative h-72 w-full overflow-hidden rounded-lg">
-                      <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center" />
+                      <img src={product.imageSrc} alt={product.imageAlt} className="h-fit w-fit object-cover object-center" />
                     </div>
                     <div className="relative p-2">
                       <h3 className="text-xl font-bold text-gray-900">{product.name}</h3>
@@ -306,7 +283,7 @@ export default function CatalogoPersonaNatural() {
                   </div>
                   <div className="mt-6 grid grid-cols-2 gap-2">
                   <a
-                      href={product.href}
+                      href={product.ficha}
                       target="_blank"
                       className="col-span-1 relative flex items-center justify-center rounded-md border border-transparent bg-gold-goldButton py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gold-goldHover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-goldSubtitle"
                       rel="noreferrer"

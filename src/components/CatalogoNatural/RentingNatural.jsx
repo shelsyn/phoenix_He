@@ -7,7 +7,7 @@ export default function RentingNatural() {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">Renting Persona Natural</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300 text-justify">
             Estrena vehículo de acuerdo al que mejor se ajuste a tus necesidades cada 48 meses, pagas un valor mensual y despreocúpate de los gastos que pueda tener el carro mantenimientos, seguros,
-            impuestos cambio de llantas..
+            impuestos cambio de llantas.
           </p>
         </div>
       </div>
