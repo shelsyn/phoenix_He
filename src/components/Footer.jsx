@@ -2,7 +2,7 @@ import { AiOutlineWhatsApp, AiOutlineInstagram } from 'react-icons/ai';
 
 const navigation = {
   main: [
-    { name: 'Inicio', href: '#Home' },
+    { name: 'Inicio', href: '/' },
     { name: 'Renting', href: '#Renting' },
     { name: 'Catálogo', href: '#tipoPersona' },
     // { name: 'Sobre Nosotros', href: '#aboutUs' },
