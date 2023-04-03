@@ -24,7 +24,7 @@ export default function Header() {
       <header className="bg-white">
         <nav className="mx-12 flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <img className="h-[100px] w-[302px]" src="/fondoss.png" alt="" />
+            <img className="h-[97px] w-[285px]" src="/fondoss.png" alt="" />
           </div>
           <div className="flex lg:hidden">
             <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400" onClick={() => setMobileMenuOpen(true)}>
