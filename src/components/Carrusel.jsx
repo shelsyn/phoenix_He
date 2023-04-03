@@ -9,7 +9,7 @@ const sliderSettings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1500, // cambiar a 2000 para cambiar cada 2 segundos
+  autoplaySpeed: 4000, // cambiar a 2000 para cambiar cada 2 segundos
 nextArrow: <CustomNextArrow />,
 };
 
@@ -18,9 +18,10 @@ function CustomNextArrow(props) {
 }
 export default function Carrusel(props) {
   const sliderImages = [
-    './podible2.jpeg',
-    './posibleeeee.jpeg',
-    '../posibles3.jpeg',
+    './portada.png',
+    './camiones.png',
+    './pohenixCar.png',
+    '../ejem.png',
   ];
   return (
     <section id="Home">
