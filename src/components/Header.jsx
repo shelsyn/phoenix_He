@@ -96,7 +96,7 @@ export default function Header() {
                 <span className="sr-only">Your Company</span>
                 <img className="h-8" src="/fondoss.png" alt="" />
               </a>
-              <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(false)}>
+              <button type="button" className="rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(false)}>
                 <span className="sr-only">Close menu</span>
                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
               </button>

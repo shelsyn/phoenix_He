@@ -2,23 +2,26 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-export default function Carrusel() {
+const sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1500, // cambiar a 2000 para cambiar cada 2 segundos
+nextArrow: <CustomNextArrow />,
+};
+
+function CustomNextArrow(props) {
+  return <div style={{ display: 'none' }} />;
+}
+export default function Carrusel(props) {
   const sliderImages = [
     './podible2.jpeg',
     './posibleeeee.jpeg',
     '../posibles3.jpeg',
   ];
-
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500, // cambiar a 2000 para cambiar cada 2 segundos
-  };
-
   return (
     <section id="Home">
       <Slider {...sliderSettings}>
@@ -39,7 +42,7 @@ export default function Carrusel() {
                 {`
                  @media screen and (max-width: 767px) {
                   .slick-slide div {
-                    background-size: contain !important;
+                    background-size: cover !important;
                     background-repeat: no-repeat !important;
                     background-position: center !important;
                     height: 17vh !important; // Ajustar la altura de la imagen para dispositivos móviles
