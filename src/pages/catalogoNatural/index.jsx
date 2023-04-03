@@ -37,7 +37,7 @@ const products = [
     precio: '$3´111.900 mensual',
     marca: 'Renault',
     tipo: 'Camioneta - SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:21e2e904-7fe1-42e7-8494-ad9c5c33438d'
   },
   {
     id: 1,
@@ -48,7 +48,7 @@ const products = [
     precio: '$3´659.900 mensual',
     marca: 'Fiat',
     tipo: 'Camioneta – SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c6fd3378-0772-42d0-bc3e-5436334a4a49'
   },
   {
     id: 1,
@@ -59,7 +59,7 @@ const products = [
     precio: '$4´204.900 mensual',
     marca: 'Mazda',
     tipo: 'Camioneta – SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ac167ec6-79cf-4bfd-9fbf-cf4498ad5ab7'
   },
   {
     id: 1,
@@ -70,7 +70,7 @@ const products = [
     precio: '$3´280.900 mensual',
     marca: 'Volkswagen',
     tipo: 'Camioneta - SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:c16ce7f6-737a-42fc-9b35-777a8ee47b37'
   },
   {
     id: 1,
@@ -81,7 +81,7 @@ const products = [
     precio: '$4´827.900 mensual',
     marca: 'Renault',
     tipo: 'Camioneta – SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:7fb00daf-f8a0-42c4-ae05-e6bae40e9eed'
   },
   {
     id: 1,
@@ -92,7 +92,7 @@ const products = [
     precio: '$4´709.900 mensual',
     marca: 'Mazda',
     tipo: 'Camioneta - SUV',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ac167ec6-79cf-4bfd-9fbf-cf4498ad5ab7'
   },
 
 ///////////////AUTOMOVIL////////
@@ -106,7 +106,7 @@ const products = [
     precio: '$2´010.900 mensual',
     marca: 'Renault ',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:97e30701-aea4-40a8-9878-6aed570bf12e'
   },
 
   {
@@ -118,7 +118,7 @@ const products = [
     precio: '$1´982.900 mensual',
     marca: 'Renault',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:795b6441-97af-46e1-ae04-2bb968ad558d'
   },
   {
     id: 1,
@@ -130,7 +130,7 @@ const products = [
     precio: '$2´466.900 mensual',
     marca: 'Renault ',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:271725e8-1057-4deb-958f-dfe5b0298387'
   },
   {
     id: 1,
@@ -141,7 +141,7 @@ const products = [
     precio: '$2´483.900 mensual',
     marca: 'Suzuki',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:7bbbb655-403c-427e-beb6-877f5b9a8097'
   },
   {
     id: 1,
@@ -152,7 +152,7 @@ const products = [
     precio: '$2´599.900 mensual',
     marca: 'Chevrolet',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:f1bfa9e0-9bdb-455f-81e8-47a1e34891a5'
   },
   {
     id: 1,
@@ -160,10 +160,10 @@ const products = [
     year: '2024',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+Logan+Intens,+gracias.',
     imageSrc: './logan3.png',
-    precio: '$2´505.900 mensual',
+    precio: '$2´670.900 mensual',
     marca: 'Renault',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:97e30701-aea4-40a8-9878-6aed570bf12e'
   },
   {
     id: 1,
@@ -174,18 +174,18 @@ const products = [
     precio: '$2´657.900 mensual',
     marca: 'Volkswagen',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:37ee82c5-c505-44ee-9cce-c1b0df307e42'
   },
   {
     id: 1,
-    name: 'Renault TWIZY TECHNIC',
+    name: 'Arona FR 1.6 AT',
     year: '2023',
-    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Renault+TWIZY,+gracias.',
-    imageSrc: './twzy.jpg',
-    precio: '$1´400.000 mensual',
-    marca: 'Renault',
+    href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Seat+Arona+FR+1.6+AT,+gracias.',
+    imageSrc: './arona.jpg',
+    precio: '$3´386.900 mensual',
+    marca: 'Seat',
     tipo: 'Automovil',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:5be6a945-a718-4c0b-b46f-2985882cdf62'
   },
   ///////////////////////////CAMPEROS/////////////////////////////////
   {
@@ -208,7 +208,7 @@ const products = [
     precio: '$9´296.900 mensual',
     marca: 'Toyota ',
     tipo: 'Campero',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:265846d5-9ff8-43ff-8219-0c3706b88bf8'
   },
   {
     id: 1,
@@ -219,7 +219,7 @@ const products = [
     precio: '$3´419.900 mensual',
     marca: 'Renault',
     tipo: 'Campero',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ace1f531-aebd-4733-b8d3-a5d06548e2ee'
   },
   {
     id: 1,
@@ -230,7 +230,7 @@ const products = [
     precio: '$3´000.000 mensual',
     marca: 'Renault',
     tipo: 'Campero',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:950e36d6-5626-4af8-8c81-539679c1e075'
   },
   {
     id: 1,
@@ -241,7 +241,7 @@ const products = [
     precio: '$3´361.900 mensual',
     marca: 'Opel',
     tipo: 'Campero',
-    ficha:''
+    ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:42d09578-c779-4ccc-8e24-7fb05a90aca9'
   },
  
 ];

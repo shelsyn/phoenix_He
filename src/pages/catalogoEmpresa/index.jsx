@@ -16,7 +16,7 @@ const products = [
   precio: '$4´902.900 mensual',
   marca: 'Mitsubishi',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8f6e9496-535c-4a41-8150-ef8a875d06c1'
 },
 {
   id: 1,
@@ -27,7 +27,7 @@ const products = [
   precio: '$5´337.900 mensual',
   marca: 'Renault',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:a6dc4cb2-321e-4a9d-973d-d5dbf268253f'
 },
 {
   id: 1,
@@ -38,7 +38,7 @@ const products = [
   precio: '$5´733.900 mensual',
   marca: 'HZna',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e949e8e8-611b-49c2-89ee-de7825c3479c'
 },
 {
   id: 1,
@@ -46,10 +46,10 @@ const products = [
   year: '2023',
   href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Chevrolet+Colorado,+gracias.',
   imageSrc: './colorado.png',
-  precio: '$4´934.900 mensual',
+  precio: '$6´351.900 mensual',
   marca: 'Chevrolet ',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8b095944-b71e-4582-854e-ca136efbe5dd'
 },
 {
   id: 1,
@@ -57,10 +57,10 @@ const products = [
   year: '2023',
   href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Toyota+Hilux+gracias.',
   imageSrc: './toyota1.jpg',
-  precio: '$5´649.900 mensual',
+  precio: '$6´473.900 mensual',
   marca: 'Toyota',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:69278af1-8a36-434d-94ec-22618e5864c2'
 },
 {
   id: 1,
@@ -71,7 +71,7 @@ const products = [
   precio: '$5´329.900 mensual',
   marca: 'Ford ',
   tipo: 'Camioneta',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:82fe823d-557f-465f-a86a-3709d0de85fc'
 },
  ///////////////////////////VANS/////////////////////////////////
  {
@@ -95,7 +95,7 @@ const products = [
   precio: '$6´233.900 mensual',
   marca: 'Chevrolet ',
   tipo: 'Camion liviano',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:df7671bd-ac13-4c30-afcb-90953beed280'
 },
 {
   id: 1,
@@ -106,7 +106,7 @@ const products = [
   precio: '$6´496.900 mensual',
   marca: 'Chevrolet',
   tipo: 'Camion liviano',
-  ficha:''
+  ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:0a128bde-9f75-41e9-803b-f99ca254727e'
 },
 
 ];
