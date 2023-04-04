@@ -8,7 +8,6 @@ const products = [
       precio: '$3´990.000 mensual',
       marca: 'Mazda',
       iva:'IVA INCLUIDO',
-      tipo: 'Camioneta – SUV',
       ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ac167ec6-79cf-4bfd-9fbf-cf4498ad5ab7'
       
     },
@@ -22,7 +21,6 @@ const products = [
       precio: '$2´990.000 mensual',
       marca: 'Jepp',
       iva:'IVA INCLUIDO',
-      tipo: 'Jeep Camioneta-SUV',
       ficha: 'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8d0a4fa4-b9c5-4db4-9c69-37acc2cdfa1e'
     },
     {
@@ -35,7 +33,6 @@ const products = [
       precio: '$1´690.000 mensual',
       iva:'IVA INCLUIDO',
       marca: 'Renault ',
-      tipo: 'Automovil',
       ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:97e30701-aea4-40a8-9878-6aed570bf12e'
       
     },
@@ -47,7 +44,6 @@ const products = [
       imageSrc: './van-prom.jpg',
       precio: '$1´990.000 mensual',
       marca: 'Renault New',
-      tipo: 'Vans',
       iva:'IVA INCLUIDO',
       ficha:''
     },
