@@ -7,6 +7,7 @@ const products = [
       imageSrc: './mazda2-0.webp',
       precio: '$3´990.000 mensual',
       marca: 'Mazda',
+      iva:'IVA INCLUIDO',
       tipo: 'Camioneta – SUV',
       ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:ac167ec6-79cf-4bfd-9fbf-cf4498ad5ab7'
       
@@ -20,7 +21,8 @@ const products = [
       imageSrc: './jepp-prom.jpg',
       precio: '$2´990.000 mensual',
       marca: 'Jepp',
-      tipo: 'Camioneta-SUV',
+      iva:'IVA INCLUIDO',
+      tipo: 'Jeep Camioneta-SUV',
       ficha: 'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:8d0a4fa4-b9c5-4db4-9c69-37acc2cdfa1e'
     },
     {
@@ -31,6 +33,7 @@ const products = [
       imageSrc: './logan.jpg',
       imageAlt: 'Renault ',
       precio: '$1´690.000 mensual',
+      iva:'IVA INCLUIDO',
       marca: 'Renault ',
       tipo: 'Automovil',
       ficha:'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:97e30701-aea4-40a8-9878-6aed570bf12e'
@@ -45,6 +48,7 @@ const products = [
       precio: '$1´990.000 mensual',
       marca: 'Renault New',
       tipo: 'Vans',
+      iva:'IVA INCLUIDO',
       ficha:''
     },
   
@@ -80,6 +84,7 @@ const products = [
                       </span>
                       <p className="mt-1 text-sm text-gray-500">{product.tipo}</p>
                       <p className="mt-1 text-lg font-semibold text-slate-700">{product.precio}</p>
+                      <p className="mt-1 text-sm text-gold-goldButton-300 text-gold-goldButton ">{product.iva}</p>
                     </div>
                     <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4">
                       <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50" />
