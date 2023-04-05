@@ -71,10 +71,13 @@ export default function Header() {
               </Transition>
             </Popover>
             <a href="#Renting" className="text-lg font-semibold leading-6 text-gold-goldButton">
-              Renting
+             ¿Qué es renting?
             </a>
             <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
               Promociones
+            </a>
+            <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
+              Quienes somos
             </a>
           </Popover.Group>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">

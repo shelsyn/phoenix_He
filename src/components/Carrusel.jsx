@@ -19,7 +19,7 @@ function CustomNextArrow(props) {
 export default function Carrusel(props) {
   const sliderImages = [
     // './portada.png',
-    './camionesNew.png',
+    './carru.png',
     './pohenixCar.png',
     '../ejem.png',
   ];
