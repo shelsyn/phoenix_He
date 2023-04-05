@@ -4,13 +4,13 @@ const supportLinks = [
   {
     name: 'Misión',
     description:
-      'Ser el mejor proveedor de servicios en seguridad y salud en el trabajo, ambiente y calidad del país, con el fin de garantizar la prevención de riesgos laborales y el cumplimiento de los requisitos legales.',
+      'Ser una empresa líder en la comercialización de automotores en Colombia, prestando servicios de renta vehicular para personas naturales y jurídicas, salvaguardando siempre la atención integral y prioritaria para nuestros clientes.',
     icon: GlobeAltIcon,
   },
   {
     name: 'Visión',
     description:
-      'Ser reconocida como la empresa mas innovadora en materia de riesgos laborales, proporcionando a nuestros clientes soluciones integrales por medio de sistemas de gestión dinámicos y eficientes.',
+      'Nuestro cliente estará en el centro de la estrategia y de la mano de ellos creceremos en servicios y productos, para de esa manera ser referente de buenas prácticas.',
     icon: EyeIcon,
   },
 ]
@@ -24,7 +24,7 @@ export default function QuienesSomos() {
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src="https://images.unsplash.com/photo-1622432866666-26f106904a19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+            src="http://www.drivesxm.com/images/inner-header.jpg"
             alt=""
           />
           <div className="absolute inset-0 bg-gray-700 mix-blend-multiply" aria-hidden="true" />
@@ -32,9 +32,9 @@ export default function QuienesSomos() {
         <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl text-center">Quienes Somos</h1>
           <p className="mt-6 text-xl text-gray-300">
-          SIG Consultoría Integral S.A.S, es una empresa fundada en Colombia en el año 2020,la cual cuenta un equipo de profesionales con amplia experiencia en el diseño e implementación de Sistemas de Gestión en diferentes sectores económicos.
-          </p>
-        </div>
+            Somos una empresa fundada en el año 2015 , con trayectoria en el mercado nacional, desempeñando labores comerciales en la industria automotriz, nuestra principal actividad comercial es el arrendamiento de vehículos automotores para empresas y personas naturales, buscando siempre dar soluciones de movilidad, obteniendo además mejoras en procesos tributarios y contables dentro de su operación; trabajamos de la mano de la empresa líder en la renta automotriz en Colombia “Renting Colombia”.
+          </ p>
+          </div>
       </div>
 
       {/* Overlapping cards */}
@@ -46,7 +46,7 @@ export default function QuienesSomos() {
           {supportLinks.map((link) => (
             <div key={link.name} className="flex flex-col rounded-2xl bg-gray-100 shadow-xl">
               <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
-                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-sky-600 p-5 shadow-lg">
+                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-gold-goldTitle p-5 shadow-lg">
                   <link.icon className="h-8 w-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-medium text-gray-900">{link.name}</h3>

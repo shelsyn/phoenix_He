@@ -76,9 +76,9 @@ export default function Header() {
             <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
               Promociones
             </a>
-            <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
+            <Link href="/quienesSomos" className="text-lg font-semibold leading-6 text-gold-goldButton">
               Quienes somos
-            </a>
+            </Link>
           </Popover.Group>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
