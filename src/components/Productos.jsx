@@ -3,7 +3,7 @@ const products = [
       id: 1,
       name: 'Cx5 Touring 2.0 At 4X2',
       year: '2023',
-      href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+Cx5+Cx5+Touring,+gracias.',
+      href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Mazda+Cx5+Touring,+gracias.',
       imageSrc: './mazda2-0.webp',
       precio: '$3´990.000 mensual',
       marca: 'Mazda',
