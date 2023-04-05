@@ -3,10 +3,11 @@ import { AiOutlineWhatsApp, AiOutlineInstagram } from 'react-icons/ai';
 const navigation = {
   main: [
     { name: 'Inicio', href: '/' },
-    { name: 'Renting', href: '#Renting' },
+    { name: '¿Que es Renting?', href: '#Renting' },
     { name: 'Catálogo', href: '#tipoPersona' },
     // { name: 'Sobre Nosotros', href: '#aboutUs' },
     { name: 'Promociones', href: '#Promociones' },
+    { name: 'Quienes Solos', href: '#Quienes Solos' },
   ],
   social: [
     {

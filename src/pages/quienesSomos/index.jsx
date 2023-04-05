@@ -1,14 +1,10 @@
 import Footer from "@/components/Footer";
 import Politicas from "@/components/QuienesSomos/Politicas";
 import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
-import Header from '@/components/Header'
-const navigation = [
-  { name: 'Inicio', href: '#Home' },
-  { name: 'Renting', href: '#Renting' },
-  { name: 'Catálogo', href: '#tipoPersona' },
-  { name: 'Promociones', href: '#Promociones' },
-  // { name: 'Sobre Nosotros', href: '#aboutUs' },
-];
+import Header from '@/components/Header';
+import Condiciones from '@/components/QuienesSomos/Condiciones'
+
+
 
 export default function SobreNosotros(){
   return(
@@ -16,6 +12,7 @@ export default function SobreNosotros(){
         <Header />
         <QuienesSomos />
         <Politicas />
+        <Condiciones />
         <Footer />
         <div className="z-[100]">
         <a
