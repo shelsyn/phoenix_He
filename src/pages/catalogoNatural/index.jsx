@@ -237,7 +237,7 @@ const products = [
     name: ' Crossland Edition',
     year: '2023',
     href: 'https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+quiero+información+sobre+la+Opel+Crossland+Edition,+gracias.',
-    imageSrc: './opel.jpg',
+    imageSrc: 'https://www.elcolombiano.com/binrepository/1020x680/0c26/1020d627/none/11101/AWQY/grpi20-c02-606-dark-ruby-red_37642515_20210430205013.jpg',
     precio: '$3´361.900 mensual',
     marca: 'Opel',
     tipo: 'Campero',
