@@ -71,7 +71,7 @@ export default function Header() {
               </Transition>
             </Popover>
             <a href="#Renting" className="text-lg font-semibold leading-6 text-gold-goldButton">
-             ¿Que es Renting?
+             ¿Qué es renting?
             </a>
             <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
               Promociones
