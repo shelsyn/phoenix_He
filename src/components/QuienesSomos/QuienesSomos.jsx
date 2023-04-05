@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { EyeIcon, GlobeAltIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 
 const supportLinks = [
@@ -17,7 +18,7 @@ const supportLinks = [
 
 export default function QuienesSomos() {
   return (
-    <section id="aboutUs" className="pt-20">
+    <section id="aboutUs" className="pt-18">
     <div className="bg-white">
       {/* Header */}
       <div className="relative bg-gray-800 pb-32">
