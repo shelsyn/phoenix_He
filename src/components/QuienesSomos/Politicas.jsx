@@ -3,21 +3,19 @@ import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/soli
 
 export default function Politicas() {
   return (
-    <div className="bg-white px-6 py-0 lg:px-8">
-      <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-        <p className="text-base font-semibold leading-7 text-indigo-600 text-gold-goldTitle">TERMINOS Y CONDICIONES.</p>
+    <div className="bg-white px-6 lg:px-1">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 pb-14 sm:px-6 lg:px-8">
+        <p className="text-base font-bold leading-7 text-gold-goldTitle">TERMINOS Y CONDICIONES.</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Politicas de tratamiento de datos</h1>
-        <p className="mt-6 text-xm leading-1">
-        PHOENIX CAR SAS establecimiento comercial, identificado con el NIT. 900998942-0,reconoce la importancia de la seguridad, privacidad y confidencialidad de los datos personales de sus clientes, usuarios, colaboradores, proveedores, accionistas, aliados y en general de todos sus grupos de interés respecto de los cuales ejerce tratamiento de información personal, por lo que en cumplimiento de las disposiciones constitucionales y legales, adoptó la presente Política para el tratamiento de datos personales de PHOENIX CAR SAS.
+        <p className="mt-2 text-xm leading-1 text-gray-900 text-justify">
+          PHOENIX CAR SAS establecimiento comercial, identificado con el NIT. <span className="text-gold-goldTitle">900998942-0</span>, reconoce la importancia de la seguridad, privacidad y confidencialidad de los datos personales de sus clientes, usuarios, colaboradores, proveedores, accionistas, aliados y en general de todos sus grupos de interés respecto de los cuales ejerce tratamiento de información personal, por lo que en cumplimiento de las disposiciones constitucionales y legales, adoptó la presente Política para el tratamiento de datos personales de PHOENIX CAR SAS.
         </p>
-        
-        <div className="mt-10 max-w-2xl">
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+        <div className="mt-4">
+          <div className="space-y-8 text-gray-800">
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Normatividad aplicable.</strong> A continuación, se listan las principales normas vigentes en Colombia en materia de protección de datos personales, con cuyo cumplimiento Phoenix Car está plenamente comprometido y que han sido tomadas en cuenta para efectos del desarrollo de la presente Política y el Sistema Integral de Gestión de Datos Personales de Phoenix Car.
-
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Normatividad aplicable.</span> A continuación, se listan las principales normas vigentes en Colombia en materia de protección de datos personales, con cuyo cumplimiento Phoenix Car está plenamente comprometido y que han sido tomadas en cuenta para efectos del desarrollo de la presente Política y el Sistema Integral de Gestión de Datos Personales de Phoenix Car.
                 <ul>
                   <li>- Artículo 15 de la Constitución Política de Colombia.</li>
                   <li>- Ley Estatutaria 1266 de 2008.</li>
@@ -30,77 +28,76 @@ export default function Politicas() {
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Contexto y alcance.</strong> De acuerdo con el artículo 15 de la Constitución Política de Colombia , todas las personas tienen derecho a conocer, actualizar y rectificar la información que se tenga de ellas en las centrales de datos. Por su parte, la Ley 1581 de 2012, estableció el régimen general de Protección de Datos Personales en Colombia ,desarrollando los principios constitucionales bajo los cuales toda persona tiene derecho a conocer, actualizar y rectificar la información personal que repose en bases de datos o archivos (manuales o automatizados), y a recibir información veraz y verificable. En Phoenix Car como responsables de información, contamos con una regulación especial sobre la Protección de los Datos de nuestros clientes, y definimos procesos y políticas que buscan garantizar la confianza, seguridad y calidad en el uso de la información. Phoenix Car recibe, registra, conserva, modifica, reporta, consulta, entrega, comparte y elimina información con la autorización del titular de la misma. Los datos nos permiten ofrecer y suministrar información de los productos y servicios para consultar, reportar y actualizar ante los operadores de información y riesgo; actualizar el estado de las relaciones contractuales, dar cumplimiento a las obligaciones pactadas, prevenir el riesgo de lavado de activos, financiación del terrorismo, entre otras. . Phoenix Car obtiene la autorización del titular de los datos a través de diferentes medios, como, autorización escrita, verbal o por diferentes medios virtuales para las finalidades descritas en la presente política.
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Contexto y alcance.</span> De acuerdo con el artículo 15 de la Constitución Política de Colombia , todas las personas tienen derecho a conocer, actualizar y rectificar la información que se tenga de ellas en las centrales de datos. Por su parte, la Ley 1581 de 2012, estableció el régimen general de Protección de Datos Personales en Colombia ,desarrollando los principios constitucionales bajo los cuales toda persona tiene derecho a conocer, actualizar y rectificar la información personal que repose en bases de datos o archivos (manuales o automatizados), y a recibir información veraz y verificable. En Phoenix Car como responsables de información, contamos con una regulación especial sobre la Protección de los Datos de nuestros clientes, y definimos procesos y políticas que buscan garantizar la confianza, seguridad y calidad en el uso de la información. Phoenix Car recibe, registra, conserva, modifica, reporta, consulta, entrega, comparte y elimina información con la autorización del titular de la misma. Los datos nos permiten ofrecer y suministrar información de los productos y servicios para consultar, reportar y actualizar ante los operadores de información y riesgo; actualizar el estado de las relaciones contractuales, dar cumplimiento a las obligaciones pactadas, prevenir el riesgo de lavado de activos, financiación del terrorismo, entre otras. . Phoenix Car obtiene la autorización del titular de los datos a través de diferentes medios, como, autorización escrita, verbal o por diferentes medios virtuales para las finalidades descritas en la presente política.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Destinatarios.</strong> La presente política, está dirigida a nuestros clientes, usuarios, colaboradores, proveedores, aliados y en general nuestros grupos de interés sobre los cuales . Phoenix Car realiza tratamiento de información personal.
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Destinatarios.</span> La presente política, está dirigida a nuestros clientes, usuarios, colaboradores, proveedores, aliados y en general nuestros grupos de interés sobre los cuales . Phoenix Car realiza tratamiento de información personal.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Definiciones.</strong> Se tendrán en cuenta las siguientes definiciones para efectos de la presente política:
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Definiciones.</span> Se tendrán en cuenta las siguientes definiciones para efectos de la presente política:
                 <ul>
-                  <li><strong className="font-semibold text-gray-900">• Autorización:</strong> es el consentimiento previo, expreso e informado del titular de la información para llevar a cabo el Tratamiento de datos personales.</li>
-                  <li><strong className="font-semibold text-gray-900">• Aviso de privacidad:</strong>  es la comunicación verbal o escrita que tiene como fin el informar al titular de los datos sobre la política de protección de datos de. Phoenix Car.</li>
-                  <li><strong className="font-semibold text-gray-900">• Base de Datos:</strong>  conjunto organizado de datos personales objeto de tratamiento.</li>
-                  <li><strong className="font-semibold text-gray-900">• Causahabiente:</strong>  es la persona que ha sucedido a otra, en razón a su fallecimiento (también se pueden entender como herederos o legatarios).</li>
-                  <li><strong className="font-semibold text-gray-900">• Dato Personal:</strong> cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables.</li>
-                  <li><strong className="font-semibold text-gray-900">• Dato Público :</strong> dato que la ley o la Constitución determina como tal, así como todos aquellos que no sean semiprivados o privados.</li>
-                  <li><strong className="font-semibold text-gray-900">• Dato Privado:</strong>  es aquel dato que por su naturaleza íntima o reservada sólo es relevante para el titular de la información.</li>
-                  <li><strong className="font-semibold text-gray-900">• Dato Semiprivado:</strong> es aquel dato que no tiene naturaleza íntima, reservada, ni pública y cuyo conocimiento o divulgación puede interesar no sólo a su titular sino a cierto sector o grupo de personas.</li>
-                  <li><strong className="font-semibold text-gray-900">• Dato Sensible:</strong> es el dato que afecta la intimidad del titular o cuyo uso indebido puede generar su discriminación.</li>
-                  <li><strong className="font-semibold text-gray-900">• Encargado del Tratamiento:</strong>  persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento.</li>
-                  <li><strong className="font-semibold text-gray-900">• Responsable del Tratamiento:</strong> persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales.</li>
-                  <li><strong className="font-semibold text-gray-900">• Titular:</strong>  persona natural cuyos datos personales sean objeto de tratamiento. Para Phoenix Car serán titulares de la información los clientes, usuarios, colaboradores, proveedores, aliados, accionistas, visitantes, nuestros grupos de interés y cualquier otra persona natural cuyos datos sean objeto de tratamiento por Phoenix Car, ya sea directa o indirectamente.</li>
-                  <li><strong className="font-semibold text-gray-900">•  Transferencia de datos:</strong> tiene lugar cuando el responsable y/o encargado del tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es responsable del tratamiento y se encuentra dentro o fuera del país.</li>
-                  <li><strong className="font-semibold text-gray-900">• Transmisión de Datos:</strong>tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un tratamiento por el encargado por cuenta del responsable.</li>
-                  <li><strong className="font-semibold text-gray-900">• Tratamiento:</strong> cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.</li>
-                  
+                  <li><span className="font-bold text-gray-900">• Autorización:</span> es el consentimiento previo, expreso e informado del titular de la información para llevar a cabo el Tratamiento de datos personales.</li>
+                  <li><span className="font-bold text-gray-900">• Aviso de privacidad:</span>  es la comunicación verbal o escrita que tiene como fin el informar al titular de los datos sobre la política de protección de datos de. Phoenix Car.</li>
+                  <li><span className="font-bold text-gray-900">• Base de Datos:</span>  conjunto organizado de datos personales objeto de tratamiento.</li>
+                  <li><span className="font-bold text-gray-900">• Causahabiente:</span>  es la persona que ha sucedido a otra, en razón a su fallecimiento (también se pueden entender como herederos o legatarios).</li>
+                  <li><span className="font-bold text-gray-900">• Dato Personal:</span> cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables.</li>
+                  <li><span className="font-bold text-gray-900">• Dato Público :</span> dato que la ley o la Constitución determina como tal, así como todos aquellos que no sean semiprivados o privados.</li>
+                  <li><span className="font-bold text-gray-900">• Dato Privado:</span>  es aquel dato que por su naturaleza íntima o reservada sólo es relevante para el titular de la información.</li>
+                  <li><span className="font-bold text-gray-900">• Dato Semiprivado:</span> es aquel dato que no tiene naturaleza íntima, reservada, ni pública y cuyo conocimiento o divulgación puede interesar no sólo a su titular sino a cierto sector o grupo de personas.</li>
+                  <li><span className="font-bold text-gray-900">• Dato Sensible:</span> es el dato que afecta la intimidad del titular o cuyo uso indebido puede generar su discriminación.</li>
+                  <li><span className="font-bold text-gray-900">• Encargado del Tratamiento:</span>  persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento.</li>
+                  <li><span className="font-bold text-gray-900">• Responsable del Tratamiento:</span> persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales.</li>
+                  <li><span className="font-bold text-gray-900">• Titular:</span>  persona natural cuyos datos personales sean objeto de tratamiento. Para Phoenix Car serán titulares de la información los clientes, usuarios, colaboradores, proveedores, aliados, accionistas, visitantes, nuestros grupos de interés y cualquier otra persona natural cuyos datos sean objeto de tratamiento por Phoenix Car, ya sea directa o indirectamente.</li>
+                  <li><span className="font-bold text-gray-900">•  Transferencia de datos:</span> tiene lugar cuando el responsable y/o encargado del tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es responsable del tratamiento y se encuentra dentro o fuera del país.</li>
+                  <li><span className="font-bold text-gray-900">• Transmisión de Datos:</span>tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un tratamiento por el encargado por cuenta del responsable.</li>
+                  <li><span className="font-bold text-gray-900">• Tratamiento:</span> cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.</li>
                 </ul>
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Principios rectores del tratamiento de datos personales.</strong> Phoenix Car se compromete con los titulares de la información a tratar sus datos personales, de conformidad con los siguientes principios:
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Principios rectores del tratamiento de datos personales.</span> Phoenix Car se compromete con los titulares de la información a tratar sus datos personales, de conformidad con los siguientes principios:
                 <ul>
-                <li><strong className="font-semibold text-gray-900">• Principio de legalidad en materia de tratamiento de datos</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de legalidad en materia de tratamiento de datos</span> 
                 <p>
                   Phoenix Car es consciente de que el tratamiento al que se refiere la Ley 1581 de 2012 es una actividad reglada que debe sujetarse a lo establecido en ella y en las demás disposiciones que la desarrollen.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de finalidad</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de finalidad</span> 
                 <p>
-              Phoenix Car tratará los datos con una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al titular.
+                  Phoenix Car tratará los datos con una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al titular.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de libertad</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de libertad</span> 
                 <p>
                 Phoenix Car tratará los datos sólo con el consentimiento, previo, expreso e informado del titular. Los datos personales no podrán ser obtenidos o divulgados sin autorización previa, o en ausencia de mandato legal o judicial.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de transparencia</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de transparencia</span> 
                 <p>
                 Phoenix Car conoce que los titulares de la información tienen derecho a obtener en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de acceso y circulación restringida</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de acceso y circulación restringida</span> 
                 <p>
                 El tratamiento está sujeto a los límites derivados de la naturaleza de los datos personales, de lo dispuesto en la ley 1581 de 2012 y la Constitución. En este sentido, el tratamiento sólo podrá hacerse por personas autorizadas por el titular y/o por las personas previstas en la ley. Con excepción de la información pública, . Phoenix Car no pondrá a disposición los datos personales en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los titulares o terceros autorizados conforme a la ley 1581 de 2012.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de seguridad</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de seguridad</span> 
                 <p>
                 Phoenix Car manejará la información sujeta a tratamiento a que se refiere la Ley 1581 de 2012, con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Principio de confidencialidad</strong> 
+                <li><span className="font-bold text-gray-900">• Principio de confidencialidad</span> 
                 <p>
                 Todas las personas que intervengan en el tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando ello corresponda al desarrollo de las actividades autorizadas en la ley 1581 de 2012 y en los términos de la misma.
                 </p>
@@ -108,24 +105,24 @@ export default function Politicas() {
                 </ul>
               </span>
             </li>
-          </ul>
+          </div>
           <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-              <span>
-                <strong className="font-semibold text-gray-900">Autorizaciones</strong> Phoenix Car solicitará la autorización de manera que el titular de la información otorgue su consentimiento previo, expreso e informado del tratamiento al cual son sujetos sus datos personales. La autorización también podrá obtenerse a partir de conductas inequívocas del titular del dato, las cuales permitan concluir de manera razonable que éste otorgó su consentimiento para el tratamiento de su información. Dichas conductas deben exteriorizar de manera clara la voluntad de autorizar el tratamiento. El consentimiento del titular se podrá obtener por cualquier medio que pueda ser objeto de consulta posterior, tales como, comunicación escrita, verbal, virtual o por conductas inequívocas. En virtud de su naturaleza y objeto social, . Phoenix Car recibe, recolecta, registra, conserva, almacena, modifica, reporta, consulta, entrega, transmite, transfiere, comparte y elimina información personal, para lo cual obtiene la previa autorización del titular.
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
+              <span className="text-justify">
+                <span className="font-bold text-gray-900">Autorizaciones</span> Phoenix Car solicitará la autorización de manera que el titular de la información otorgue su consentimiento previo, expreso e informado del tratamiento al cual son sujetos sus datos personales. La autorización también podrá obtenerse a partir de conductas inequívocas del titular del dato, las cuales permitan concluir de manera razonable que éste otorgó su consentimiento para el tratamiento de su información. Dichas conductas deben exteriorizar de manera clara la voluntad de autorizar el tratamiento. El consentimiento del titular se podrá obtener por cualquier medio que pueda ser objeto de consulta posterior, tales como, comunicación escrita, verbal, virtual o por conductas inequívocas. En virtud de su naturaleza y objeto social, . Phoenix Car recibe, recolecta, registra, conserva, almacena, modifica, reporta, consulta, entrega, transmite, transfiere, comparte y elimina información personal, para lo cual obtiene la previa autorización del titular.
                 La autorización que le otorgan los titulares de la información a Phoenix Car permite entre otras cosas, la realización de las siguientes finalidades:
                 <ul>
-                <li><strong className="font-semibold text-gray-900">- Ofrecer y suministrar información de los productos y servicios.</strong> 
+                <li><span className="font-bold text-gray-900">- Ofrecer y suministrar información de los productos y servicios.</span> 
                 </li>
-                <li><strong className="font-semibold text-gray-900">- Consultar, reportar y actualizar sus datos ante los operadores de información y riesgo.</strong> 
+                <li><span className="font-bold text-gray-900">- Consultar, reportar y actualizar sus datos ante los operadores de información y riesgo.</span> 
                 </li>
-                <li><strong className="font-semibold text-gray-900">- Actualizar las relaciones contractuales vigentes y dar cumplimiento a las obligaciones pactadas, entre otras (ver numeral 7 Finalidades).</strong> 
+                <li><span className="font-bold text-gray-900">- Actualizar las relaciones contractuales vigentes y dar cumplimiento a las obligaciones pactadas, entre otras (ver numeral 7 Finalidades).</span> 
                 <p>
                 Phoenix Car conservará prueba de dichas autorizaciones de manera adecuada, velando y respetando los principios de privacidad y confidencialidad de la información. Conozca aquí la autorización para el tratamiento de información personal que firman nuestros clientes.
                 Así mismo, en Phoenix Car cuando se trate de información que se relacione con los siguientes tipos de datos, se tendrán las siguientes consideraciones especiales:
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Datos sensibles</strong> 
+                <li><span className="font-bold text-gray-900">• Datos sensibles</span> 
                 <p>
                 Para el tratamiento de datos sensibles, Phoenix Car informará al titular de los datos lo siguiente:
                 <li>
@@ -142,7 +139,7 @@ export default function Politicas() {
                 </li>
                 </p>
                 </li>
-                <li><strong className="font-semibold text-gray-900">• Datos de niños, niñas y adolescentes.</strong> 
+                <li><span className="font-bold text-gray-900">• Datos de niños, niñas y adolescentes.</span> 
                 <p>
                 Phoenix Car se asegurará que el tratamiento de este tipo de datos se realice de conformidad con los derechos de los niños, niñas y adolescentes. En este sentido, se protegerá su carácter especial y velará por el respeto de sus derechos fundamentales, de acuerdo con lo dispuesto en los artículos 5, 6 y 7 de la Ley 1581 de 2012, y en los artículos 6 y 12 del Decreto 1377 de 2013, y demás normas que los modifiquen o adicionen. Para efectos de cumplir lo anterior,Phoenix Car actuará de conformidad con lo siguiente:
                 <li>
@@ -175,33 +172,14 @@ export default function Politicas() {
                 </ul>
               </span>
             </li>
-         
-         
-          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Finalidades</h2>
-          <p className="mt-6">
+          <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">Finalidades</h2>
+          <p className="mt-2">
           Las siguientes son las principales finalidades con las que Phoenix Car realiza el tratamiento de la información personal:
           </p>
-          <figure className="mt-10 border-l border-indigo-600 pl-9">
-            <blockquote className="font-semibold text-gray-900">
-              <p>
-                “Con Phoenix Car, el alquiler de tu vehículo no solo te llevará a tu destino, sino que también te dará la libertad de explorar y descubrir todo lo que la carretera tiene para ofrecer.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-6 flex gap-x-4">
-              <img
-                className="h-6 w-6 flex-none rounded-full bg-gray-50"
-                src="./logo.png"
-                alt=""
-              />
-              <div className="text-sm leading-6">
-                <strong className="font-semibold text-gray-900">Phoenix Car</strong> 
-              </div>
-            </figcaption>
-          </figure>
-          <p className="mt-10 text-ml font-bold tracking-tight text-gray-900">
+          <p className="mt-2 text-ml font-bold tracking-tight text-gray-900">
           Clientes y/o usuarios:
           </p>
-          <ul>
+          <ul className="text-justify">
             <li>
              • Conocer su comportamiento financiero, comercial y crediticio y el cumplimiento de sus obligaciones legales. 
             </li>
@@ -247,27 +225,19 @@ export default function Politicas() {
             <li>
              • Consultar multas y sanciones ante las diferentes autoridades administrativas y judiciales o bases de datos públicas que tengan como función la administración de datos de esta naturaleza. 
             </li>
-
-
           </ul>
         </div>
-        <figure className="mt-16">
+        <figure className="mt-4">
           <img
             className="aspect-video rounded-xl bg-gray-50 object-cover"
             src="./carr4.png"
             alt=""
-          />
-
-          <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
-            <InformationCircleIcon className="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
-            Phoenix Car.
-          </figcaption>
-          
+          />      
         </figure>
-        <p className="mt-10 text-ml font-bold tracking-tight text-gray-900">
+        <p className="mt-4 text-ml font-bold tracking-tight text-gray-900 ">
         Proveedores y aliados:
           </p>
-          <ul>
+          <ul className="text-justify">
             <li>
              • La información solicitada al proveedor o aliado podrá incluir información de la persona natural o jurídica según corresponda. Así mismo, es posible que se solicite información de los empleados del proveedor o aliado que se encuentren dedicados a cumplir alguna función o relación con Phoenix Car que por la labor desempeñada requieran acceso a las instalaciones, a los aplicativos y/o sistemas u otros de la organización.
             </li>
@@ -290,10 +260,10 @@ export default function Politicas() {
             • Efectuar análisis e investigaciones comerciales, estadísticas, de riesgos, de mercado, interbancaria y financiera a partir de los resultados del proveedor o aliado.
             </li>
           </ul>
-          <p className="mt-10 text-ml font-bold tracking-tight text-gray-900">
+          <p className="mt-4 text-ml font-bold tracking-tight text-gray-900">
           Aspirantes y colaboradores
           </p>
-          <ul>
+          <ul className="text-justify">
             <li>
             La información que Phoenix Car recolecta de aspirantes o candidatos a cargos dentro de la organización es tratada con la finalidad de realizar la evaluación de ingreso y el proceso de vinculación del aspirante. El tratamiento de la información personal de nuestros colaboradores tiene como finalidad la gestión de las relaciones laborales existentes con éstos, así como el desarrollo de las diferentes actividades establecidas por la organización. Entre las cuales resaltamos las siguientes:
             </li>
@@ -314,10 +284,10 @@ export default function Politicas() {
             </li>
           </ul>
 
-          <p className="mt-10 text-ml font-bold tracking-tight text-gray-900" >
+          <p className="mt-4 text-ml font-bold tracking-tight text-gray-900" >
           Accionistas
           </p>
-          <ul>
+          <ul className="text-justify">
             <li>
             La información y los datos personales de los accionistas, incluida información personal, de contacto, así como la información y documentación suministrada a través de canales virtuales, canal telefónico, correo electrónico y actualizaciones de información serán recolectados, consultados, actualizados, modificados y procesados directamente por Phoenix Car y/o por los terceros designados por éste, para los siguientes fines:
             </li>
@@ -342,11 +312,10 @@ export default function Politicas() {
            
             
           </ul>
-          <p className="mt-10 text-ml font-bold tracking-tight text-gray-900" >
+          <p className="mt-4 text-ml font-bold tracking-tight text-gray-900" >
           Acceso a edificios, vigilancia y seguridad de las instalaciones
           </p>
-          <ul>
-            
+          <ul className="text-justify">
             <li>
              • Contar con información de cada uno de los empleados, del personal Outsourcing que labora al servicio del Phoenix Car y de los visitantes que ingresen a los edificios de Dirección General o demás instalaciones de la organización.
             </li>
@@ -361,17 +330,15 @@ export default function Politicas() {
             </li>
           </ul>
 
-        <div className="mt-16 max-w-2xl">
-          <h2 className="text-1xl font-bold tracking-tight text-gray-900">Duración del tratamiento de datos</h2>
-          
-          <p className="mt-8">
+        <div className="mt-4">
+          <h2 className="text-1xl font-bold tracking-tight text-gray-900">Duración del tratamiento de datos</h2> 
+          <p className="mt-2">
           Los datos personales estarán sujetos a tratamiento por Phoenix Car durante el termino contractual en el que el titular de la información tenga el producto, servicio, contrato o relación, más el término que establezca la ley.
           </p>
         </div>
-
-        <div className="mt-16 max-w-2xl">
+        <div className="mt-4 text-justify">
           <h2 className="text-1xl font-bold tracking-tight text-gray-900">Derechos del titular</h2>
-          <p className="mt-8">
+          <p className="mt-2">
           Los titulares de la información que es objeto de tratamiento por Phoenix Car podrán:
           </p>
           <li>
@@ -401,12 +368,10 @@ export default function Politicas() {
           <li>
             Los derechos de los niños, niñas o adolescentes se ejercerán por las personas que estén facultadas para representarlos.
           </li>
-
         </div>
-
-        <div className="mt-16 max-w-2xl">
+        <div className="mt-4 text-justify">
           <h2 className="text-1xl font-bold tracking-tight text-gray-900">Deberes de Phoenix Car</h2>
-          <p className="mt-8">
+          <p className="mt-2 ">
           Phoenix Car como responsable de los datos personales almacenados en sus bases de datos, se compromete a:
           </p>
           <li>
@@ -444,14 +409,14 @@ export default function Politicas() {
          Informar a la autoridad de protección de datos cuando se presenten violaciones de seguridad y existan riesgos en la administración de la información de los titulares.
        </li>
         </div>
-        <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
-            <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+        <ul className="mt-4space-y-8 text-gray-600">
+            <li className="flex gap-x-3 text-justify">
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Atención de consultas, quejas y reclamos.</strong> Los titulares de la información cuando requieran realizar alguna consulta, queja o reclamo podrán hacer uso de:
+                <span className="font-bold text-gray-900">Atención de consultas, quejas y reclamos.</span> Los titulares de la información cuando requieran realizar alguna consulta, queja o reclamo podrán hacer uso de:
 
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Consultas
                   </li>
                   <li>
@@ -459,7 +424,7 @@ export default function Politicas() {
                   </li>
                 </ul>
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Corrección, actualización, supresión y revocatoria.
                   </li>
                   <li>
@@ -468,7 +433,7 @@ export default function Politicas() {
                 </ul>
 
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Requisitos para presentar un reclamo.
                   </li>
                   <li>
@@ -488,7 +453,7 @@ export default function Politicas() {
                   </p>
                 </ul>
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Supresión de la información.
                   </li>
                   <li>
@@ -496,7 +461,7 @@ export default function Politicas() {
                   </li>
                 </ul>
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Supresión de la información.
                   </li>
                   <li>
@@ -507,16 +472,16 @@ export default function Politicas() {
                   </li>
                 </ul>
                 <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Buzón correo electrónico.</strong> <li>- Phoenix1@rentingcolombia.com
+                <span className="font-bold text-gray-900">Buzón correo electrónico.</span> <li>- Phoenix1@rentingcolombia.com
                   </li> Así mismo, tenemos canales de radicación como son redes sociales y fuerza comercial especializada. También puedes acercarte a cualquiera de nuestras sucursales y presentar tu solicitud dentro de los términos establecidos por la ley.
               </span>
             </li>
                
                 
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Transferencia y transmisión de datos personaless
                   </li>
                   <li>
@@ -527,7 +492,7 @@ export default function Politicas() {
                   </li>
                 </ul>
                 <ul>
-                  <li className="font-semibold text-gray-900">
+                  <li className="font-bold text-gray-900">
                   Relacionamiento con terceros y/o encargados
                   </li>
                   <li>
@@ -539,30 +504,30 @@ export default function Politicas() {
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Cookies</strong> Phoenix Car en aras de mejorar su servicio en el sitio web y los aplicativos digitales, utiliza cookies propias y de terceros con el fin de optimizar la experiencia de nuestros clientes y usuarios, monitorear información estadística, presentar contenidos y publicidad relacionados con las preferencias de los usuarios cuando naveguen por nuestro sitio web, plataformas y/o aplicativos tecnológicos y/o digitales.
+                <span className="font-bold text-gray-900">Cookies</span> Phoenix Car en aras de mejorar su servicio en el sitio web y los aplicativos digitales, utiliza cookies propias y de terceros con el fin de optimizar la experiencia de nuestros clientes y usuarios, monitorear información estadística, presentar contenidos y publicidad relacionados con las preferencias de los usuarios cuando naveguen por nuestro sitio web, plataformas y/o aplicativos tecnológicos y/o digitales.
                 La información que se recopila mediante las cookies se encuentra cifrada y no será utilizada para identificar y/o revelar la información del usuario. De igual forma no se recopilan datos de los usuarios, tales como: número de tarjetas débito o crédito, u otra información de carácter financiero o crediticio. Para más información sobre el uso de las cookies en el sitio web y los aplicativos digitales, pueden consultar las políticas que sobre cookies ha establecido o llegue a establecer Phoenix Car.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Destinatarios.</strong> La presente política, está dirigida a nuestros clientes, usuarios, colaboradores, proveedores, aliados y en general nuestros grupos de interés sobre los cuales . Phoenix Car realiza tratamiento de información personal.
+                <span className="font-bold text-gray-900">Destinatarios.</span> La presente política, está dirigida a nuestros clientes, usuarios, colaboradores, proveedores, aliados y en general nuestros grupos de interés sobre los cuales . Phoenix Car realiza tratamiento de información personal.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Política y lineamientos complementarios y modificaciones de la presente política.</strong> En virtud, de la presente política, Phoenix Car podrá desarrollar políticas sobre aspectos específicos (por ejemplo, política de cookies), así como lineamientos, directrices y circulares orientados a su implementación, siempre que sean consistentes con el marco normativo y esta política.
+                <span className="font-bold text-gray-900">Política y lineamientos complementarios y modificaciones de la presente política.</span> En virtud, de la presente política, Phoenix Car podrá desarrollar políticas sobre aspectos específicos (por ejemplo, política de cookies), así como lineamientos, directrices y circulares orientados a su implementación, siempre que sean consistentes con el marco normativo y esta política.
                 Esta política puede ser modificada en cualquier momento con el objeto de adaptarla a nuevas prácticas que se desarrollen o a novedades legislativas o jurisprudenciales en la materia. Cualquier actualización se pondrá a disposición de los titulares de la información personal en el sitio en cualquier otro medio que se considere pertinente, indicando la fecha de entrada en vigencia de la correspondiente modificación o actualización, según sea el caso.
                 
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gold-goldTitle" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Vigencia.</strong> La presente Política de tratamiento de datos personales empieza a regir a partir de la fecha de su aprobación.
+                <span className="font-bold text-gray-900">Vigencia.</span> La presente Política de tratamiento de datos personales empieza a regir a partir de la fecha de su aprobación.
                 
               </span>
             </li>

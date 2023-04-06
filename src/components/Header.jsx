@@ -5,7 +5,7 @@ import { AiOutlineCar } from 'react-icons/ai';
 import Link from 'next/link';
 
 const navigation = [
-  { name: 'Inicio', href: '#Home' },
+  { name: 'Inicio', href: '/' },
   { name: 'Renting', href: '#Renting' },
   { name: 'Catálogo', href: '#tipoPersona' },
   { name: 'Promociones', href: '#Promociones' },
@@ -33,7 +33,7 @@ export default function Header() {
             </button>
           </div>
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <Link href="#Home" className="text-lg font-semibold leading-6 text-gold-goldButton">
+            <Link href="/" className="text-lg font-semibold leading-6 text-gold-goldButton">
               Inicio
             </Link>
             <Popover className="relative">
@@ -95,10 +95,10 @@ export default function Header() {
           <div className="fixed inset-0 z-10" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gold-goldWhite px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
-              <a href="#Home" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img className="h-20" src="/fondoss.png" alt="" />
-              </a>
+              </Link>
               <button type="button" className="rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(false)}>
                 <span className="sr-only">Close menu</span>
                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />

@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 import Politicas from "@/components/QuienesSomos/Politicas";
 import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
-import Header from '@/components/Header';
 import Condiciones from '@/components/QuienesSomos/Condiciones'
+import Header from "@/components/Header";
 
 
 
