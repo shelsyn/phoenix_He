@@ -1,18 +1,16 @@
 import Footer from "@/components/Footer";
 import Politicas from "@/components/QuienesSomos/Politicas";
 import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
-import Condiciones from '@/components/QuienesSomos/Condiciones'
-import Header from "@/components/Header";
+import HeaderQuienesSomos from "@/components/QuienesSomos/HeaderQuienesSomos";
 
 
 
 export default function SobreNosotros(){
   return(
     <>
-        <Header />
+        <HeaderQuienesSomos />
         <QuienesSomos />
         <Politicas />
-        <Condiciones />
         <Footer />
         <div className="z-[100]">
         <a

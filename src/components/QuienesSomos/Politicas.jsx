@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 
 export default function Politicas() {
   return (
@@ -532,6 +533,11 @@ export default function Politicas() {
               </span>
             </li>
           </ul>
+          <section id='Condiciones'>
+            <p className="flex gap-x-3 font-semibold text-gray-600 mt-4">Haz click para saber mas acerca de los
+              <Link href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:41bef62d-a4a6-49a2-914c-d5c12034bc07" target="_blank"><span className="underline cursor-pointer font-bold text-gray-900">térmimos y condiciones</span></Link>
+            </p>
+          </section>
       </div>
     </div>
   )

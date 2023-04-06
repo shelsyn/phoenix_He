@@ -6,9 +6,7 @@ import Link from 'next/link';
 
 const navigation = [
   { name: 'Inicio', href: '/' },
-  { name: 'Catálogo', href: '#tipoPersona' },
-  { name: 'Promociones', href: '#Promociones' },
-  { name: 'Quienes somos', href: '/quienesSomos'}
+  { name: 'Términos y Condiciones', href: '#Condiciones' },
 ];
 
 const products = [
@@ -16,7 +14,7 @@ const products = [
   { name: 'Catálogo Persona Natural', href: '/catalogoNatural', icon: AiOutlineCar },
 ];
 
-export default function Header() {
+export default function HeaderQuienesSomos() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
@@ -69,12 +67,9 @@ export default function Header() {
                 </Popover.Panel>
               </Transition>
             </Popover>
-            <a href="#Promociones" className="text-lg font-semibold leading-6 text-gold-goldButton">
-              Promociones
+            <a href="#Condiciones" className="text-lg font-semibold leading-6 text-gold-goldButton">
+            Términos y Condiciones
             </a>
-            <Link href="/quienesSomos" className="text-lg font-semibold leading-6 text-gold-goldButton">
-              Quienes somos
-            </Link>
           </Popover.Group>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a

@@ -3,11 +3,10 @@ import { AiOutlineWhatsApp, AiOutlineInstagram } from 'react-icons/ai';
 const navigation = {
   main: [
     { name: 'Inicio', href: '/' },
-    { name: '¿Que es Renting?', href: '#Renting' },
     { name: 'Catálogo', href: '#tipoPersona' },
     // { name: 'Sobre Nosotros', href: '#aboutUs' },
     { name: 'Promociones', href: '#Promociones' },
-    { name: 'Quienes Solos', href: '#Quienes Solos' },
+    { name: 'Quienes Somos', href: '#Quienes Somos' },
   ],
   social: [
     {
@@ -27,7 +26,7 @@ export default function Footer() {
     <>
       <footer className="bg-white">
         <div className="mx-auto max-w-7xl overflow-hidden pt-20 px-6 sm:py-8 lg:px-8">
-          <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+          <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 xs:flex xs:items-center xs:justify-center xs:space-x-4" aria-label="Footer">
             {navigation.main.map((item) => (
               <div key={item.name} className="pb-6">
                 <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
