@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const navigation = [
   { name: 'Inicio', href: '/' },
-  { name: 'Catálogo', href: '#tipoPersona' },
+  { name: 'Catálogo Persona Natural', href: '/catalogoNatural' },  
   { name: 'Promociones', href: '#Promociones' },
   // { name: 'Sobre Nosotros', href: '#aboutUs' },
 ];

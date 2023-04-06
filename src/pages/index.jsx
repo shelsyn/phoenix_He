@@ -1,4 +1,5 @@
 import Carrusel from '@/components/Carrusel'
+import { Contacto } from '@/components/Contacto'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Productos from '@/components/Productos'
@@ -21,7 +22,7 @@ export default function Home() {
         <Renting />
         <TipoPersona />
         <Productos />
-        {/* <Contacto /> */}
+        <Contacto />
       </main>
       <Footer />
       <div className="z-[100]">

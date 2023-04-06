@@ -1,13 +1,6 @@
-import { Switch } from '@headlessui/react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
-import { useState } from 'react';
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
 
 export function Contacto() {
-    const [agreed, setAgreed] = useState(false);
     return (
       <section id="ContactUs" className="pb-20">
         <div className="relative bg-white">
@@ -39,33 +32,20 @@ export function Contacto() {
                 <form className="grid grid-cols-1 gap-y-6">
                   <div>
                     <label htmlFor="name" className="sr-only">
-                      Nombres
+                      Nombre Completo
                     </label>
                     <input
                       type="text"
                       name="name"
                       id="name"
                       autoComplete="name"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm phoenix_car@outlook.com phoenix_car@outlook.com"
-                      placeholder="Nombres *"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="lastName" className="sr-only">
-                      Apellidos
-                    </label>
-                    <input
-                      type="text"
-                      name="lastName"
-                      id="lastName"
-                      autoComplete="name"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm phoenix_car@outlook.com phoenix_car@outlook.com"
-                      placeholder="Apellidos *"
+                      className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-gold-goldText focus:ring-gold-goldText"
+                      placeholder="Nombre Completo *"
                     />
                   </div>
                   <div>
                     <label htmlFor="email" className="sr-only">
-                      Email
+                      Correo Electrónico
                     </label>
                     <input
                       id="email"
@@ -73,7 +53,7 @@ export function Contacto() {
                       type="email"
                       autoComplete="email"
                       className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-gold-goldText focus:ring-gold-goldText"
-                      placeholder="Email *"
+                      placeholder="Correo Electrónico *"
                     />
                   </div>
                   <div>
@@ -101,36 +81,6 @@ export function Contacto() {
                       placeholder="Mensaje *"
                       defaultValue={''}
                     />
-                  </div>
-                  <div>
-                    <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
-                      <div className="flex h-6 items-center">
-                        <Switch
-                          checked={agreed}
-                          onChange={setAgreed}
-                          className={classNames(
-                            agreed ? 'bg-gold-goldText' : 'bg-gray-200',
-                            'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-                          )}
-                        >
-                          <span className="sr-only">Agree to policies</span>
-                          <span
-                            aria-hidden="true"
-                            className={classNames(
-                              agreed ? 'translate-x-3.5' : 'translate-x-0',
-                              'h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out'
-                            )}
-                          />
-                        </Switch>
-                      </div>
-                      <Switch.Label className="text-sm leading-6 text-gray-600">
-                        Aceptas la política de protección de datos personales{' '}
-                        <a href="#Home" className="font-semibold text-gold-goldText">
-                          políticas&nbsp;de&nbsp;privacidad
-                        </a>
-                        .
-                      </Switch.Label>
-                    </Switch.Group>
                   </div>
                   <div>
                     <button
