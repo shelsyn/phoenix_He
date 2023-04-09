@@ -36,7 +36,7 @@ export default function Renting() {
       <div className="relative isolate overflow-hidden bg-white mt-5 py-1 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-5xl font-bold tracking-tight text-gold-goldTitle xs:text-3xl lg:text-6xl">¿Qué es el renting?</h2>
+            <h2 className="text-5xl font-bold tracking-tight text-gold-goldTitle xs:text-3xl lg:text-6xl">¿Qué es  renting?</h2>
             <p className="mt-6 text-2xl xs:text-xl text-slate-900">
               El renting es un servicio de alquiler de vehículos a nivel mundial, que ofrece autonomía y control al cliente durante un tiempo determinado. Incluye un paquete de servicios adaptado a
               las necesidades diarias de los clientes.
