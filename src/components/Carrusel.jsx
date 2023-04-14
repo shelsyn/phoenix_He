@@ -25,7 +25,7 @@ export default function Carrusel(props) {
    '../ejem.png',
    './twitter999.jpg',
    
-    './twitter889.jpg',
+    './twitter566.jpg',
     './pohenixCar.png',
      './twitter3.jpg',
     
