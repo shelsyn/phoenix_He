@@ -20,10 +20,14 @@ export default function Carrusel(props) {
   const sliderImages = [
     // './portada.png',
 
-    './pohenixCar.png',
+    
     './carr4.png',
    '../ejem.png',
-    './car3.png',
+   './twitter999.jpg',
+   
+    './twitter88.jpg',
+    './pohenixCar.png',
+     './twitter3.jpg',
     
   ];
   return (
