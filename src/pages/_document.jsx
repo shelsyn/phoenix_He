@@ -21,6 +21,8 @@ export default function Document(props) {
         <meta name="keywords" content="carros, car, alquiler carros, renta, renting, autos, empresas, camiones,automovil " />
         <meta name="description" content="¿Necesitas alquilar un carro en Colombia? En Phoenixcar ofrecemos una amplia selección de vehículos a precios asequibles. ¡Reserva hoy mismo y disfruta de la comodidad y libertad de explorar la ciudad a tu propio ritmo!" />
         <meta name="autor" content="Phoenixcar" />
+        <meta name="googlebot" content="noindex"></meta>
+        <meta name="robots" content="noindex"></meta>
       </Head>
       <body className="flex h-full flex-col">
         <Main />
