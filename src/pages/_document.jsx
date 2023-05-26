@@ -18,9 +18,10 @@ export default function Document(props) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
         />
-        <meta name="keywords" content="carros, car, alquiler carros, renta, renting, autos, empresas, camiones,automovil " />
-        <meta name="description" content="¿Necesitas alquilar un carro en Colombia? En Phoenixcar ofrecemos una amplia selección de vehículos a precios asequibles. ¡Reserva hoy mismo y disfruta de la comodidad y libertad de explorar la ciudad a tu propio ritmo!" />
-        <meta name="autor" content="Phoenixcar" />
+        <meta name="keywords" content="alquiler de carros, renta de autos, alquiler de camiones, alquiler de automóviles, alquiler de vehículos" />
+         <meta name="description" content="¿Necesitas alquilar un carro en Colombia? En Phoenixcar ofrecemos una amplia selección de vehículos a precios asequibles. ¡Reserva hoy mismo y disfruta de la comodidad y libertad de explorar la ciudad a tu propio ritmo!" />
+        <meta name="author" content="Phoenixcar" />
+
       </Head>
       <body className="flex h-full flex-col">
         <Main />
