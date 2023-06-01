@@ -1,29 +1,22 @@
-import { Head, Html, Main, NextScript } from 'next/document'
+/* eslint-disable @next/next/no-title-in-document-head */
+import { Html, Head, Main, NextScript } from 'next/document'
+import React from "react"
 
-export default function Document(props) {
-
+export default function Document() {
   return (
-    <Html
-      className="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01']"
-      lang="en"
-    >
+    <Html lang="en">
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
-        />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="PhoenixCar - ¿Necesitas alquilar un carro en Colombia? En Phoenixcar ofrecemos una amplia selección de vehículos a precios asequibles. ¡Reserva hoy mismo y disfruta de la comodidad y libertad de explorar la ciudad a tu propio ritmo!." />
         <meta name="keywords" content="alquiler de carros, renta de autos, alquiler de camiones, alquiler de automóviles, alquiler de vehículos" />
-         <meta name="description" content="¿Necesitas alquilar un carro en Colombia? En Phoenixcar ofrecemos una amplia selección de vehículos a precios asequibles. ¡Reserva hoy mismo y disfruta de la comodidad y libertad de explorar la ciudad a tu propio ritmo!" />
-        <meta name="author" content="Phoenixcar" />
-
+        <meta name="author" content="PhoenixCar" />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+        <title>PhoenixCar - renta de carros Colombia</title>
       </Head>
-      <body className="flex h-full flex-col">
+      <body>
         <Main />
         <NextScript />
       </body>
