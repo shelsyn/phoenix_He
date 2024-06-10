@@ -1,8 +1,11 @@
 import Footer from "@/components/Footer";
-import Politicas from "@/components/QuienesSomos/Politicas";
-import QuienesSomos from "@/components/QuienesSomos/QuienesSomos";
-import HeaderQuienesSomos from "@/components/QuienesSomos/HeaderQuienesSomos";
-
+import Politicas from "@/components/Créditovehículo/Politicas";
+import QuienesSomos from "@/components/Créditovehículo/QuienesSomos";
+import HeaderQuienesSomos from "@/components/Créditovehículo/HeaderQuienesSomos";
+import Beneficios from "@/components/Créditovehículo/Beneficios";
+import Productos from "@/components/Créditovehículo/Productos";
+import Creditos from "@/components/Créditovehículo/Creditos";
+import { Contacto } from "@/components/Contacto";
 
 
 export default function SobreNosotros(){
@@ -10,7 +13,10 @@ export default function SobreNosotros(){
     <>
         <HeaderQuienesSomos />
         <QuienesSomos />
-        <Politicas />
+        <Beneficios />
+        < Productos />
+        < Creditos />
+        <Contacto />
         <Footer />
         <div className="z-[100]">
         <a

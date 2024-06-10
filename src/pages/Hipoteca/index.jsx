@@ -1,30 +1,22 @@
-import Carrusel from '@/components/Carrusel'
-import { Contacto } from '@/components/Contacto'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import Créditovehículo from '@/components/Créditovehículo/QuienesSomos'
-import Renting from '@/components/Renting'
-import TipoPersona from '@/components/TipoPersona'
-import Head from 'next/head'
+import Footer from "@/components/Footer";
+import { Contacto } from "@/components/Contacto";
+import BeneficiosHipoteca from "@/components/CreditoHipotecario/BeneficiosHipoteca";
+import CreditosHipoteca from "@/components/CreditoHipotecario/CreditosHipoteca";
+import HeaderHipoteca from "@/components/CreditoHipotecario/HeaderHipoteca";
+import ProductosHipoteca from "@/components/CreditoHipotecario/ProductosHipoteca";
 
-export default function Home() {
-  return (
+
+export default function SobreNosotros(){
+  return(
     <>
-      <Head>
-        <title>Phoenix Car | Inicio</title>
-        <meta
-          name="description"
-        />
-      </Head>
-      <main>
-        <Header />
-        <Carrusel />
-        <Renting />
-        <TipoPersona />
+        <BeneficiosHipoteca />
+        <CreditosHipoteca />
+        < HeaderHipoteca />
+        <ProductosHipoteca/>
+       
         <Contacto />
-      </main>
-      <Footer />
-      <div className="z-[100]">
+        <Footer />
+        <div className="z-[100]">
         <a
           href="https://api.whatsapp.com/send/?phone=573143532474&text=Hola,+estoy+interesado+en+rentar+un+vehículo,+pordrían+brindarme+más+información,+gracias."
           target="_blank"
@@ -37,5 +29,6 @@ export default function Home() {
         </a>
       </div>
     </>
-  )
+    
+);
 }
