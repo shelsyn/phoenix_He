@@ -3,15 +3,15 @@ import { EyeIcon, GlobeAltIcon, UserGroupIcon } from '@heroicons/react/24/outlin
 
 const supportLinks = [
   {
-    name: 'Misión',
+    name: '¿Qué ofrecemos?',
     description:
-      'Ser una empresa líder en la comercialización de automotores en Colombia, prestando servicios de renta vehicular para personas naturales y jurídicas, salvaguardando siempre la atención integral y prioritaria para nuestros clientes.',
+      'En Phoenix, brindamos la opción más adecuada de crédito vehicular para cada cliente, teniendo en cuenta su perfil crediticio y sus necesidades específicas. Realizamos un exhaustivo comparativo con las principales entidades financieras para asegurar la mejor solución.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'Visión',
+    name: '¿Cómo lo logramos?',
     description:
-      'Nuestro cliente estará en el centro de la estrategia y de la mano de ellos creceremos en servicios y productos, para de esa manera ser referente de buenas prácticas.',
+      'A través de alianzas estratégicas con las instituciones financieras más destacadas del país, facilitamos a nuestros clientes el acceso a opciones de financiamiento vehicular de manera rápida y efectiva. En Phoenix, nos comprometemos a proporcionarle a nuestros clientes una experiencia bancaria óptima.',
     icon: EyeIcon,
   },
 ]
@@ -21,20 +21,18 @@ export default function QuienesSomos() {
     <section id="aboutUs" className="pt-18">
     <div className="bg-white">
       {/* Header */}
-      <div className="relative bg-gray-800 pb-32">
+      <div className="relative  pb-32">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
-            src="http://www.drivesxm.com/images/inner-header.jpg"
+            src="https://www.enterprise.com/es/exotic-car-rental/_jcr_content/root/teaser_image.coreimg.jpeg/1667858318385/homepage-hero-1920x565.jpeg"
             alt=""
           />
           <div className="absolute inset-0 bg-gray-700 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl text-center">Quienes Somos</h1>
-          <p className="mt-6 text-xl text-gray-300">
-            Somos una empresa fundada en el año 2015 , con trayectoria en el mercado nacional, desempeñando labores comerciales en la industria automotriz, nuestra principal actividad comercial es el arrendamiento de vehículos automotores para empresas y personas naturales, buscando siempre dar soluciones de movilidad, obteniendo además mejoras en procesos tributarios y contables dentro de su operación; trabajamos de la mano de la empresa líder en la renta automotriz en Colombia “Renting Colombia”.
-          </ p>
+          <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl text-center">CRÉDITO DE VEHÍCULO</h1>
+          
           </div>
       </div>
 
