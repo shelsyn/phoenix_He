@@ -30,7 +30,7 @@ const cards = [
 
   },
   {
-    name: '¡Sin Esperas!: Estudio de Crédito en 24 Horas',
+    name: '¡Sin Esperas!: Estudio de Crédito en 24 Horas.',
     icon: BsBox2,
   },
   {
